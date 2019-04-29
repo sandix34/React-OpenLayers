@@ -38,7 +38,7 @@ class VecteurFichier extends Component {
 
     // Source de données du vecteur en format GeoJSON
     this.sourceGeoJSON = new VectorSource({
-    url: 'https://5cc74f8f4848433327996263--jovial-stallman-b4e0db.netlify.com/public/data/pays.geojson',
+    url: '../../public/data/pays.geojson',
 	format: new GeoJSON()
     });
     // Déclaration de la couche vectorielle	

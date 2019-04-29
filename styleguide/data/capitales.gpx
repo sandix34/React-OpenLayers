@@ -1,0 +1,1822 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="-41.299987853691732" minlon="-175.220564477616563" maxlat="64.150023619739216" maxlon="179.216647094028872"/></metadata>              
+<wpt lat="-0.213042322035562" lon="-78.501996967112404">
+  <name>Quito</name>
+  <extensions>
+    <ogr:ADM0_A3>ECU</ogr:ADM0_A3>
+    <ogr:ISO_A2>EC</ogr:ISO_A2>
+    <ogr:LATITUDE>-0.21498818065</ogr:LATITUDE>
+    <ogr:LONGITUDE>-78.500051108500003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="9.936958288356607" lon="-84.085997211275355">
+  <name>San Jose</name>
+  <extensions>
+    <ogr:ADM0_A3>CRI</ogr:ADM0_A3>
+    <ogr:ISO_A2>CR</ogr:ISO_A2>
+    <ogr:LATITUDE>9.93501242974</ogr:LATITUDE>
+    <ogr:LONGITUDE>-84.084051352700001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="13.711947505494038" lon="-89.204987079459897">
+  <name>San Salvador</name>
+  <extensions>
+    <ogr:ADM0_A3>SLV</ogr:ADM0_A3>
+    <ogr:ISO_A2>SV</ogr:ISO_A2>
+    <ogr:LATITUDE>13.7100016469</ogr:LATITUDE>
+    <ogr:LONGITUDE>-89.203041220800003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="17.977076623830897" lon="-76.767433713669107">
+  <name>Kingston</name>
+  <extensions>
+    <ogr:ADM0_A3>JAM</ogr:ADM0_A3>
+    <ogr:ISO_A2>JM</ogr:ISO_A2>
+    <ogr:LATITUDE>17.977076623799999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-76.767433713700001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="55.680510049025941" lon="12.561539888703294">
+  <name>Kdbenhavn</name>
+  <extensions>
+    <ogr:ADM0_A3>DNK</ogr:ADM0_A3>
+    <ogr:ISO_A2>DK</ogr:ISO_A2>
+    <ogr:LATITUDE>55.678564190400003</ogr:LATITUDE>
+    <ogr:LONGITUDE>12.5634857473</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="5.321942826098564" lon="-4.041994118507091">
+  <name>Abidjan</name>
+  <extensions>
+    <ogr:ADM0_A3>CIV</ogr:ADM0_A3>
+    <ogr:ISO_A2>CI</ogr:ISO_A2>
+    <ogr:LATITUDE>5.31999696749</ogr:LATITUDE>
+    <ogr:LONGITUDE>-4.04004825989</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="12.115042394810644" lon="15.047202455462298">
+  <name>Ndjamena</name>
+  <extensions>
+    <ogr:ADM0_A3>TCD</ogr:ADM0_A3>
+    <ogr:ISO_A2>TD</ogr:ISO_A2>
+    <ogr:LATITUDE>12.1130965362</ogr:LATITUDE>
+    <ogr:LONGITUDE>15.0491483141</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-15.781394372878992" lon="-47.917998147003061">
+  <name>Brasilia</name>
+  <extensions>
+    <ogr:ADM0_A3>BRA</ogr:ADM0_A3>
+    <ogr:ISO_A2>BR</ogr:ISO_A2>
+    <ogr:LATITUDE>-15.7833402315</ogr:LATITUDE>
+    <ogr:LONGITUDE>-47.916052288400003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="3.750015278026183" lon="8.783277545821136">
+  <name>Malabo</name>
+  <extensions>
+    <ogr:ADM0_A3>GNQ</ogr:ADM0_A3>
+    <ogr:ISO_A2>GQ</ogr:ISO_A2>
+    <ogr:LATITUDE>3.75001527803</ogr:LATITUDE>
+    <ogr:LONGITUDE>8.783277545820001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="15.333339252681924" lon="38.933323525759306">
+  <name>Asmara</name>
+  <extensions>
+    <ogr:ADM0_A3>ERI</ogr:ADM0_A3>
+    <ogr:ISO_A2>ER</ogr:ISO_A2>
+    <ogr:LATITUDE>15.3333392527</ogr:LATITUDE>
+    <ogr:LONGITUDE>38.933323525799999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="45.800006733272539" lon="15.999994668245677">
+  <name>Zagreb</name>
+  <extensions>
+    <ogr:ADM0_A3>HRV</ogr:ADM0_A3>
+    <ogr:ISO_A2>HR</ogr:ISO_A2>
+    <ogr:LATITUDE>45.800006733300002</ogr:LATITUDE>
+    <ogr:LONGITUDE>15.999994668199999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="59.433877379485921" lon="24.72804072947855">
+  <name>Tallinn</name>
+  <extensions>
+    <ogr:ADM0_A3>EST</ogr:ADM0_A3>
+    <ogr:ISO_A2>EE</ogr:ISO_A2>
+    <ogr:LATITUDE>59.433877379499997</ogr:LATITUDE>
+    <ogr:LONGITUDE>24.728040729500002</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="50.83526293533032" lon="4.33137074969045">
+  <name>Brussels</name>
+  <extensions>
+    <ogr:ADM0_A3>BEL</ogr:ADM0_A3>
+    <ogr:ISO_A2>BE</ogr:ISO_A2>
+    <ogr:LATITUDE>50.833317076699998</ogr:LATITUDE>
+    <ogr:LONGITUDE>4.3333166083</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="23.725005570312817" lon="90.406633608107541">
+  <name>Dhaka</name>
+  <extensions>
+    <ogr:ADM0_A3>BGD</ogr:ADM0_A3>
+    <ogr:ISO_A2>BD</ogr:ISO_A2>
+    <ogr:LATITUDE>23.723059711699999</ogr:LATITUDE>
+    <ogr:LONGITUDE>90.408579466700004</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-8.836340255012658" lon="13.23248118266855">
+  <name>Luanda</name>
+  <extensions>
+    <ogr:ADM0_A3>AGO</ogr:ADM0_A3>
+    <ogr:ISO_A2>AO</ogr:ISO_A2>
+    <ogr:LATITUDE>-8.83828611363</ogr:LATITUDE>
+    <ogr:LONGITUDE>13.2344270413</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="46.916682758667719" lon="7.466975462482424">
+  <name>Bern</name>
+  <extensions>
+    <ogr:ADM0_A3>CHE</ogr:ADM0_A3>
+    <ogr:ISO_A2>CH</ogr:ISO_A2>
+    <ogr:LATITUDE>46.916682758699999</ogr:LATITUDE>
+    <ogr:LONGITUDE>7.46697546248</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="36.765010656628135" lon="3.048606670909237">
+  <name>Algiers</name>
+  <extensions>
+    <ogr:ADM0_A3>DZA</ogr:ADM0_A3>
+    <ogr:ISO_A2>DZ</ogr:ISO_A2>
+    <ogr:LATITUDE>36.763064798</ogr:LATITUDE>
+    <ogr:LONGITUDE>3.05055252952</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="16.785299963188777" lon="96.164731752661851">
+  <name>Rangoon</name>
+  <extensions>
+    <ogr:ADM0_A3>MMR</ogr:ADM0_A3>
+    <ogr:ISO_A2>MM</ogr:ISO_A2>
+    <ogr:LATITUDE>16.783354104600001</ogr:LATITUDE>
+    <ogr:LONGITUDE>96.166677611300003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-13.983295065469179" lon="33.783301959983532">
+  <name>Lilongwe</name>
+  <extensions>
+    <ogr:ADM0_A3>MWI</ogr:ADM0_A3>
+    <ogr:ISO_A2>MW</ogr:ISO_A2>
+    <ogr:LATITUDE>-13.9832950655</ogr:LATITUDE>
+    <ogr:LONGITUDE>33.78330196</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="14.623080521448173" lon="-90.528911436561543">
+  <name>Guatemala</name>
+  <extensions>
+    <ogr:ADM0_A3>GTM</ogr:ADM0_A3>
+    <ogr:ISO_A2>GT</ogr:ISO_A2>
+    <ogr:LATITUDE>14.621134662799999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-90.5269655779</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="42.666709614119384" lon="21.165984251599866">
+  <name>Pristina</name>
+  <extensions>
+    <ogr:ADM0_A3>KOS</ogr:ADM0_A3>
+    <ogr:ISO_A2>-99</ogr:ISO_A2>
+    <ogr:LATITUDE>42.6667096141</ogr:LATITUDE>
+    <ogr:LONGITUDE>21.165984251600001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="0.385388609718518" lon="9.457965045823698">
+  <name>Libreville</name>
+  <extensions>
+    <ogr:ADM0_A3>GAB</ogr:ADM0_A3>
+    <ogr:ISO_A2>GA</ogr:ISO_A2>
+    <ogr:LATITUDE>0.38538860972</ogr:LATITUDE>
+    <ogr:LONGITUDE>9.45796504582</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="10.502944413033333" lon="-66.918983051050418">
+  <name>Caracas</name>
+  <extensions>
+    <ogr:ADM0_A3>VEN</ogr:ADM0_A3>
+    <ogr:ISO_A2>VE</ogr:ISO_A2>
+    <ogr:LATITUDE>10.500998554400001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-66.917037192400002</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="13.10200258275114" lon="-59.616526735051593">
+  <name>Bridgetown</name>
+  <extensions>
+    <ogr:ADM0_A3>BRB</ogr:ADM0_A3>
+    <ogr:ISO_A2>BB</ogr:ISO_A2>
+    <ogr:LATITUDE>13.102002582800001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-59.616526735100003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-18.133015931371233" lon="178.441707315379858">
+  <name>Suva</name>
+  <extensions>
+    <ogr:ADM0_A3>FJI</ogr:ADM0_A3>
+    <ogr:ISO_A2>FJ</ogr:ISO_A2>
+    <ogr:LATITUDE>-18.133015931399999</ogr:LATITUDE>
+    <ogr:LONGITUDE>178.441707315</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="50.435313187607221" lon="30.514682110472165">
+  <name>Kiev</name>
+  <extensions>
+    <ogr:ADM0_A3>UKR</ogr:ADM0_A3>
+    <ogr:ISO_A2>UA</ogr:ISO_A2>
+    <ogr:LATITUDE>50.433367329</ogr:LATITUDE>
+    <ogr:LONGITUDE>30.5166279691</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="41.313647741607213" lon="69.292986960887788">
+  <name>Tashkent</name>
+  <extensions>
+    <ogr:ADM0_A3>UZB</ogr:ADM0_A3>
+    <ogr:ISO_A2>UZ</ogr:ISO_A2>
+    <ogr:LATITUDE>41.311701883</ogr:LATITUDE>
+    <ogr:LONGITUDE>69.294932819500005</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="40.401972123113808" lon="-3.685297544612524">
+  <name>Madrid</name>
+  <extensions>
+    <ogr:ADM0_A3>ESP</ogr:ADM0_A3>
+    <ogr:ISO_A2>ES</ogr:ISO_A2>
+    <ogr:LATITUDE>40.400026264499999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-3.683351686</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="59.35270581286585" lon="18.095388874180912">
+  <name>Stockholm</name>
+  <extensions>
+    <ogr:ADM0_A3>SWE</ogr:ADM0_A3>
+    <ogr:ISO_A2>SE</ogr:ISO_A2>
+    <ogr:LATITUDE>59.350759954300003</ogr:LATITUDE>
+    <ogr:LONGITUDE>18.0973347328</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="13.751945064087977" lon="100.51469879369489">
+  <name>Bangkok</name>
+  <extensions>
+    <ogr:ADM0_A3>THA</ogr:ADM0_A3>
+    <ogr:ISO_A2>TH</ogr:ISO_A2>
+    <ogr:LATITUDE>13.7499992055</ogr:LATITUDE>
+    <ogr:LONGITUDE>100.516644652</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-12.046066817525571" lon="-77.052007953434725">
+  <name>Lima</name>
+  <extensions>
+    <ogr:ADM0_A3>PER</ogr:ADM0_A3>
+    <ogr:ISO_A2>PE</ogr:ISO_A2>
+    <ogr:LATITUDE>-12.048012676100001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-77.050062094799998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="14.717777583623274" lon="-17.475075987050559">
+  <name>Dakar</name>
+  <extensions>
+    <ogr:ADM0_A3>SEN</ogr:ADM0_A3>
+    <ogr:ISO_A2>SM</ogr:ISO_A2>
+    <ogr:LATITUDE>14.715831725</ogr:LATITUDE>
+    <ogr:LONGITUDE>-17.473130128400001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-26.16809888138414" lon="28.028063865019476">
+  <name>Johannesburg</name>
+  <extensions>
+    <ogr:ADM0_A3>ZAF</ogr:ADM0_A3>
+    <ogr:ISO_A2>ZA</ogr:ISO_A2>
+    <ogr:LATITUDE>-26.17004474</ogr:LATITUDE>
+    <ogr:LONGITUDE>28.030009723599999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="52.351914546664432" lon="4.914694317400972">
+  <name>Amsterdam</name>
+  <extensions>
+    <ogr:ADM0_A3>NLD</ogr:ADM0_A3>
+    <ogr:ISO_A2>NL</ogr:ISO_A2>
+    <ogr:LATITUDE>52.349968688099999</ogr:LATITUDE>
+    <ogr:LONGITUDE>4.91664017601</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="18.086427021247516" lon="-15.975340414890013">
+  <name>Nouakchott</name>
+  <extensions>
+    <ogr:ADM0_A3>MRT</ogr:ADM0_A3>
+    <ogr:ISO_A2>MR</ogr:ISO_A2>
+    <ogr:LATITUDE>18.086427021199999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-15.9753404149</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="12.651960526323251" lon="-8.001984963249697">
+  <name>Bamako</name>
+  <extensions>
+    <ogr:ADM0_A3>MLI</ogr:ADM0_A3>
+    <ogr:ISO_A2>ML</ogr:ISO_A2>
+    <ogr:LATITUDE>12.650014667700001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-8.000039104640001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="37.568294958388947" lon="126.997785138201948">
+  <name>Seoul</name>
+  <extensions>
+    <ogr:ADM0_A3>KOR</ogr:ADM0_A3>
+    <ogr:ISO_A2>KR</ogr:ISO_A2>
+    <ogr:LATITUDE>37.5663490998</ogr:LATITUDE>
+    <ogr:LONGITUDE>126.999730997</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="14.606104813440538" lon="120.980271303542395">
+  <name>Manila</name>
+  <extensions>
+    <ogr:ADM0_A3>PHL</ogr:ADM0_A3>
+    <ogr:ISO_A2>PH</ogr:ISO_A2>
+    <ogr:LATITUDE>14.604158954800001</ogr:LATITUDE>
+    <ogr:LONGITUDE>120.982217162</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="52.523764522251156" lon="13.399602764700546">
+  <name>Berlin</name>
+  <extensions>
+    <ogr:ADM0_A3>DEU</ogr:ADM0_A3>
+    <ogr:ISO_A2>DE</ogr:ISO_A2>
+    <ogr:LATITUDE>52.521818663600001</ogr:LATITUDE>
+    <ogr:LONGITUDE>13.4015486233</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="33.873920975626902" lon="35.507762351377664">
+  <name>Beirut</name>
+  <extensions>
+    <ogr:ADM0_A3>LBN</ogr:ADM0_A3>
+    <ogr:ISO_A2>LB</ogr:ISO_A2>
+    <ogr:LATITUDE>33.871975117</ogr:LATITUDE>
+    <ogr:LONGITUDE>35.50970821</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="41.726955847077591" lon="44.788849590997984">
+  <name>Tbilisi</name>
+  <extensions>
+    <ogr:ADM0_A3>GEO</ogr:ADM0_A3>
+    <ogr:ISO_A2>GE</ogr:ISO_A2>
+    <ogr:LATITUDE>41.725009988499998</ogr:LATITUDE>
+    <ogr:LONGITUDE>44.790795449599997</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-4.327778243275986" lon="15.313026023171744">
+  <name>Kinshasa</name>
+  <extensions>
+    <ogr:ADM0_A3>COD</ogr:ADM0_A3>
+    <ogr:ISO_A2>CD</ogr:ISO_A2>
+    <ogr:LATITUDE>-4.32972410189</ogr:LATITUDE>
+    <ogr:LONGITUDE>15.3149718818</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="28.600023009245433" lon="77.199980020053033">
+  <name>New Delhi</name>
+  <extensions>
+    <ogr:ADM0_A3>IND</ogr:ADM0_A3>
+    <ogr:ISO_A2>IN</ogr:ISO_A2>
+    <ogr:LATITUDE>28.600023009200001</ogr:LATITUDE>
+    <ogr:LONGITUDE>77.1999800201</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="51.181125304257591" lon="71.427774209483005">
+  <name>Astana</name>
+  <extensions>
+    <ogr:ADM0_A3>KAZ</ogr:ADM0_A3>
+    <ogr:ISO_A2>KZ</ogr:ISO_A2>
+    <ogr:LATITUDE>51.181125304299997</ogr:LATITUDE>
+    <ogr:LONGITUDE>71.427774209500001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="37.985272090552257" lon="23.731375225679358">
+  <name>Athens</name>
+  <extensions>
+    <ogr:ADM0_A3>GRC</ogr:ADM0_A3>
+    <ogr:ISO_A2>GR</ogr:ISO_A2>
+    <ogr:LATITUDE>37.983326231900001</ogr:LATITUDE>
+    <ogr:LONGITUDE>23.733321084300002</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="33.340594356158647" lon="44.391922914564134">
+  <name>Baghdad</name>
+  <extensions>
+    <ogr:ADM0_A3>IRQ</ogr:ADM0_A3>
+    <ogr:ISO_A2>IQ</ogr:ISO_A2>
+    <ogr:LATITUDE>33.338648497500003</ogr:LATITUDE>
+    <ogr:LONGITUDE>44.393868773199998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="9.035256221295754" lon="38.698058575348682">
+  <name>Addis Ababa</name>
+  <extensions>
+    <ogr:ADM0_A3>ETH</ogr:ADM0_A3>
+    <ogr:ISO_A2>ET</ogr:ISO_A2>
+    <ogr:LATITUDE>9.03331036268</ogr:LATITUDE>
+    <ogr:LONGITUDE>38.700004434</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="35.673888627001304" lon="51.422398175008993">
+  <name>Tehran</name>
+  <extensions>
+    <ogr:ADM0_A3>IRN</ogr:ADM0_A3>
+    <ogr:ISO_A2>IR</ogr:ISO_A2>
+    <ogr:LATITUDE>35.671942768400001</ogr:LATITUDE>
+    <ogr:LONGITUDE>51.424344033600001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-34.600555749907414" lon="-58.399477232331435">
+  <name>Buenos Aires</name>
+  <extensions>
+    <ogr:ADM0_A3>ARG</ogr:ADM0_A3>
+    <ogr:ISO_A2>AR</ogr:ISO_A2>
+    <ogr:LATITUDE>-34.602501608499999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-58.397531373699998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="34.518636144900313" lon="69.181314190705052">
+  <name>Kabul</name>
+  <extensions>
+    <ogr:ADM0_A3>AFG</ogr:ADM0_A3>
+    <ogr:ISO_A2>AF</ogr:ISO_A2>
+    <ogr:LATITUDE>34.516690286299998</ogr:LATITUDE>
+    <ogr:LONGITUDE>69.183260049300003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="48.201961136816863" lon="16.364693096743736">
+  <name>Vienna</name>
+  <extensions>
+    <ogr:ADM0_A3>AUT</ogr:ADM0_A3>
+    <ogr:ISO_A2>AT</ogr:ISO_A2>
+    <ogr:LATITUDE>48.200015278199999</ogr:LATITUDE>
+    <ogr:LONGITUDE>16.366638955399999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="25.035833333333301" lon="121.568333333333001">
+  <name>Taipei</name>
+  <extensions>
+    <ogr:ADM0_A3>TWN</ogr:ADM0_A3>
+    <ogr:ISO_A2>TW</ogr:ISO_A2>
+    <ogr:LATITUDE>25.03583333333</ogr:LATITUDE>
+    <ogr:LONGITUDE>121.568333333330003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="17.96669272762739" lon="102.59998002015476">
+  <name>Vientiane</name>
+  <extensions>
+    <ogr:ADM0_A3>LAO</ogr:ADM0_A3>
+    <ogr:ISO_A2>LA</ogr:ISO_A2>
+    <ogr:LATITUDE>17.966692727600002</ogr:LATITUDE>
+    <ogr:LONGITUDE>102.59998002</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-4.257239913197509" lon="15.282743633848668">
+  <name>Brazzaville</name>
+  <extensions>
+    <ogr:ADM0_A3>COG</ogr:ADM0_A3>
+    <ogr:ISO_A2>CG</ogr:ISO_A2>
+    <ogr:LATITUDE>-4.25918577181</ogr:LATITUDE>
+    <ogr:LONGITUDE>15.2846894925</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="38.901495235087054" lon="-77.011364439437159">
+  <name>Washington, D.C.</name>
+  <extensions>
+    <ogr:ADM0_A3>USA</ogr:ADM0_A3>
+    <ogr:ISO_A2>US</ogr:ISO_A2>
+    <ogr:LATITUDE>38.899549376499998</ogr:LATITUDE>
+    <ogr:LONGITUDE>-77.009418580800002</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="9.533468705021789" lon="-13.682180886123945">
+  <name>Conakry</name>
+  <extensions>
+    <ogr:ADM0_A3>GIN</ogr:ADM0_A3>
+    <ogr:ISO_A2>GN</ogr:ISO_A2>
+    <ogr:LATITUDE>9.531522846410001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-13.6802350275</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="6.818380960004617" lon="-5.275502564912301">
+  <name>Yamoussoukro</name>
+  <extensions>
+    <ogr:ADM0_A3>CIV</ogr:ADM0_A3>
+    <ogr:ISO_A2>CI</ogr:ISO_A2>
+    <ogr:LATITUDE>6.81838096</ogr:LATITUDE>
+    <ogr:LONGITUDE>-5.27550256491</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="51.5019405883275" lon="-0.118667702475932">
+  <name>London</name>
+  <extensions>
+    <ogr:ADM0_A3>GBR</ogr:ADM0_A3>
+    <ogr:ISO_A2>GB</ogr:ISO_A2>
+    <ogr:LATITUDE>51.499994729699999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-0.11672184386</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="15.301015644283325" lon="-61.387012981803366">
+  <name>Roseau</name>
+  <extensions>
+    <ogr:ADM0_A3>DMA</ogr:ADM0_A3>
+    <ogr:ISO_A2>DM</ogr:ISO_A2>
+    <ogr:LATITUDE>15.3010156443</ogr:LATITUDE>
+    <ogr:LONGITUDE>-61.387012981799998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="24.642779007816443" lon="46.770795798688255">
+  <name>Riyadh</name>
+  <extensions>
+    <ogr:ADM0_A3>SAU</ogr:ADM0_A3>
+    <ogr:ISO_A2>SA</ogr:ISO_A2>
+    <ogr:LATITUDE>24.640833149199999</ogr:LATITUDE>
+    <ogr:LONGITUDE>46.772741657300003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-3.376087220374643" lon="29.360006061528395">
+  <name>Bujumbura</name>
+  <extensions>
+    <ogr:ADM0_A3>BDI</ogr:ADM0_A3>
+    <ogr:ISO_A2>BI</ogr:ISO_A2>
+    <ogr:LATITUDE>-3.37608722037</ogr:LATITUDE>
+    <ogr:LONGITUDE>29.360006061499998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-33.918065108628753" lon="18.433042299226031">
+  <name>Cape Town</name>
+  <extensions>
+    <ogr:ADM0_A3>ZAF</ogr:ADM0_A3>
+    <ogr:ISO_A2>ZA</ogr:ISO_A2>
+    <ogr:LATITUDE>-33.9200109672</ogr:LATITUDE>
+    <ogr:LONGITUDE>18.434988157799999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="55.754109981248178" lon="37.613576967271399">
+  <name>Moscow</name>
+  <extensions>
+    <ogr:ADM0_A3>RUS</ogr:ADM0_A3>
+    <ogr:ISO_A2>RU</ogr:ISO_A2>
+    <ogr:LATITUDE>55.7521641226</ogr:LATITUDE>
+    <ogr:LONGITUDE>37.615522825900001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="13.14827882786841" lon="-61.212062420279324">
+  <name>Kingstown</name>
+  <extensions>
+    <ogr:ADM0_A3>VCT</ogr:ADM0_A3>
+    <ogr:ISO_A2>VC</ogr:ISO_A2>
+    <ogr:LATITUDE>13.1482788279</ogr:LATITUDE>
+    <ogr:LONGITUDE>-61.212062420300001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="19.444388301415472" lon="-99.132934060293906">
+  <name>Mexico City</name>
+  <extensions>
+    <ogr:ADM0_A3>MEX</ogr:ADM0_A3>
+    <ogr:ISO_A2>MX</ogr:ISO_A2>
+    <ogr:LATITUDE>19.442442442800001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-99.130988201700006</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="14.001973489330339" lon="-61.000008180369548">
+  <name>Castries</name>
+  <extensions>
+    <ogr:ADM0_A3>LCA</ogr:ADM0_A3>
+    <ogr:ISO_A2>LC</ogr:ISO_A2>
+    <ogr:LATITUDE>14.001973489299999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-61.000008180400002</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="17.302030455489387" lon="-62.717009319699343">
+  <name>Basseterre</name>
+  <extensions>
+    <ogr:ADM0_A3>KNA</ogr:ADM0_A3>
+    <ogr:ISO_A2>KN</ogr:ISO_A2>
+    <ogr:LATITUDE>17.302030455499999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-62.717009319699997</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="41.897901485098942" lon="12.481312562873995">
+  <name>Rome</name>
+  <extensions>
+    <ogr:ADM0_A3>ITA</ogr:ADM0_A3>
+    <ogr:ISO_A2>IT</ogr:ISO_A2>
+    <ogr:LATITUDE>41.895955626499997</ogr:LATITUDE>
+    <ogr:LONGITUDE>12.4832584215</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="39.930838089909059" lon="116.386339825659434">
+  <name>Beijing</name>
+  <extensions>
+    <ogr:ADM0_A3>CHN</ogr:ADM0_A3>
+    <ogr:ISO_A2>CN</ogr:ISO_A2>
+    <ogr:LATITUDE>39.928892231299997</ogr:LATITUDE>
+    <ogr:LONGITUDE>116.388285684</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-1.281400883237779" lon="36.814711000471448">
+  <name>Nairobi</name>
+  <extensions>
+    <ogr:ADM0_A3>KEN</ogr:ADM0_A3>
+    <ogr:ISO_A2>KE</ogr:ISO_A2>
+    <ogr:LATITUDE>-1.28334674185</ogr:LATITUDE>
+    <ogr:LONGITUDE>36.8166568591</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-20.166638571353246" lon="57.499993854609727">
+  <name>Port Louis</name>
+  <extensions>
+    <ogr:ADM0_A3>MUS</ogr:ADM0_A3>
+    <ogr:ISO_A2>MU</ogr:ISO_A2>
+    <ogr:LATITUDE>-20.1666385714</ogr:LATITUDE>
+    <ogr:LONGITUDE>57.4999938546</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-6.172471846798885" lon="106.827491762470117">
+  <name>Jakarta</name>
+  <extensions>
+    <ogr:ADM0_A3>IDN</ogr:ADM0_A3>
+    <ogr:ISO_A2>ID</ogr:ISO_A2>
+    <ogr:LATITUDE>-6.17441770541</ogr:LATITUDE>
+    <ogr:LONGITUDE>106.829437621</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="4.598369421147822" lon="-74.085289813774409">
+  <name>Bogota</name>
+  <extensions>
+    <ogr:ADM0_A3>COL</ogr:ADM0_A3>
+    <ogr:ISO_A2>CO</ogr:ISO_A2>
+    <ogr:LATITUDE>4.59642356253</ogr:LATITUDE>
+    <ogr:LONGITUDE>-74.083343955199993</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="30.051906205103705" lon="31.248022361126118">
+  <name>Cairo</name>
+  <extensions>
+    <ogr:ADM0_A3>EGY</ogr:ADM0_A3>
+    <ogr:ISO_A2>EG</ogr:ISO_A2>
+    <ogr:LATITUDE>30.049960346500001</ogr:LATITUDE>
+    <ogr:LONGITUDE>31.249968219700001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="12.052633401720414" lon="-61.741643226074757">
+  <name>Saint George's</name>
+  <extensions>
+    <ogr:ADM0_A3>GRD</ogr:ADM0_A3>
+    <ogr:ISO_A2>GD</ogr:ISO_A2>
+    <ogr:LATITUDE>12.0526334017</ogr:LATITUDE>
+    <ogr:LONGITUDE>-61.741643226100003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="11.595014464255485" lon="43.148001667052256">
+  <name>Djibouti</name>
+  <extensions>
+    <ogr:ADM0_A3>DJI</ogr:ADM0_A3>
+    <ogr:ISO_A2>DJ</ogr:ISO_A2>
+    <ogr:LATITUDE>11.5950144643</ogr:LATITUDE>
+    <ogr:LONGITUDE>43.148001667099997</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="35.686962764371174" lon="139.749461570544668">
+  <name>Tokyo</name>
+  <extensions>
+    <ogr:ADM0_A3>JPN</ogr:ADM0_A3>
+    <ogr:ISO_A2>JP</ogr:ISO_A2>
+    <ogr:LATITUDE>35.685016905799998</ogr:LATITUDE>
+    <ogr:LONGITUDE>139.751407429000011</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="26.236136290485945" lon="50.583051715910187">
+  <name>Manama</name>
+  <extensions>
+    <ogr:ADM0_A3>BHR</ogr:ADM0_A3>
+    <ogr:ISO_A2>BH</ogr:ISO_A2>
+    <ogr:LATITUDE>26.236136290499999</ogr:LATITUDE>
+    <ogr:LONGITUDE>50.583051715899998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="48.868638789814611" lon="2.33138946713035">
+  <name>Paris</name>
+  <extensions>
+    <ogr:ADM0_A3>FRA</ogr:ADM0_A3>
+    <ogr:ISO_A2>FR</ogr:ISO_A2>
+    <ogr:LATITUDE>48.866692931199999</ogr:LATITUDE>
+    <ogr:LONGITUDE>2.33333532574</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="17.118036518314113" lon="-61.850033815138659">
+  <name>Saint John's</name>
+  <extensions>
+    <ogr:ADM0_A3>ATG</ogr:ADM0_A3>
+    <ogr:ISO_A2>AG</ogr:ISO_A2>
+    <ogr:LATITUDE>17.118036518299999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-61.850033815099998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-33.448067956934096" lon="-70.668986713174831">
+  <name>Santiago</name>
+  <extensions>
+    <ogr:ADM0_A3>CHL</ogr:ADM0_A3>
+    <ogr:ISO_A2>CL</ogr:ISO_A2>
+    <ogr:LATITUDE>-33.4500138155</ogr:LATITUDE>
+    <ogr:LONGITUDE>-70.667040854600003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="10.651997089577264" lon="-61.517030885449742">
+  <name>Port-of-Spain</name>
+  <extensions>
+    <ogr:ADM0_A3>TTO</ogr:ADM0_A3>
+    <ogr:ISO_A2>TT</ogr:ISO_A2>
+    <ogr:LATITUDE>10.6519970896</ogr:LATITUDE>
+    <ogr:LONGITUDE>-61.517030885399997</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="1.294979325105942" lon="103.853874819099019">
+  <name>Singapore</name>
+  <extensions>
+    <ogr:ADM0_A3>SGP</ogr:ADM0_A3>
+    <ogr:ISO_A2>SG</ogr:ISO_A2>
+    <ogr:LATITUDE>1.29303346649</ogr:LATITUDE>
+    <ogr:LONGITUDE>103.855820678</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-34.856095707590725" lon="-56.172998147035969">
+  <name>Montevideo</name>
+  <extensions>
+    <ogr:ADM0_A3>URY</ogr:ADM0_A3>
+    <ogr:ISO_A2>UY</ogr:ISO_A2>
+    <ogr:LATITUDE>-34.858041566200001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-56.171052288399999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="45.418642655360429" lon="-75.701961159809514">
+  <name>Ottawa</name>
+  <extensions>
+    <ogr:ADM0_A3>CAN</ogr:ADM0_A3>
+    <ogr:ISO_A2>CA</ogr:ISO_A2>
+    <ogr:LATITUDE>45.416696796700002</ogr:LATITUDE>
+    <ogr:LONGITUDE>-75.700015301199997</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="49.611660379121076" lon="6.130002806227083">
+  <name>Luxembourg</name>
+  <extensions>
+    <ogr:ADM0_A3>LUX</ogr:ADM0_A3>
+    <ogr:ISO_A2>LU</ogr:ISO_A2>
+    <ogr:LATITUDE>49.611660379100002</ogr:LATITUDE>
+    <ogr:LONGITUDE>6.13000280623</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="44.820591304446737" lon="20.466044822020535">
+  <name>Belgrade</name>
+  <extensions>
+    <ogr:ADM0_A3>SRB</ogr:ADM0_A3>
+    <ogr:ISO_A2>RS</ogr:ISO_A2>
+    <ogr:LATITUDE>44.818645445800001</ogr:LATITUDE>
+    <ogr:LONGITUDE>20.4679906806</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="4.883331114619239" lon="114.933284056662274">
+  <name>Bandar Seri Begawan</name>
+  <extensions>
+    <ogr:ADM0_A3>BRN</ogr:ADM0_A3>
+    <ogr:ISO_A2>BN</ogr:ISO_A2>
+    <ogr:LATITUDE>4.88333111462</ogr:LATITUDE>
+    <ogr:LONGITUDE>114.93328405699999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="41.903282179960115" lon="12.453386544971766">
+  <name>Vatican City</name>
+  <extensions>
+    <ogr:ADM0_A3>VAT</ogr:ADM0_A3>
+    <ogr:ISO_A2>VA</ogr:ISO_A2>
+    <ogr:LATITUDE>41.900012226400001</ogr:LATITUDE>
+    <ogr:LONGITUDE>12.4478083889</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-19.040970846739469" lon="-65.259515626675636">
+  <name>Sucre</name>
+  <extensions>
+    <ogr:ADM0_A3>BOL</ogr:ADM0_A3>
+    <ogr:ISO_A2>BO</ogr:ISO_A2>
+    <ogr:LATITUDE>-19.040970846699999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-65.259515626699994</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="17.252033507246892" lon="-88.767072999816548">
+  <name>Belmopan</name>
+  <extensions>
+    <ogr:ADM0_A3>BLZ</ogr:ADM0_A3>
+    <ogr:ISO_A2>BZ</ogr:ISO_A2>
+    <ogr:LATITUDE>17.2520335072</ogr:LATITUDE>
+    <ogr:LONGITUDE>-88.767072999800007</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="4.366644306349087" lon="18.558288125287277">
+  <name>Bangui</name>
+  <extensions>
+    <ogr:ADM0_A3>CAF</ogr:ADM0_A3>
+    <ogr:ISO_A2>CF</ogr:ISO_A2>
+    <ogr:LATITUDE>4.36664430635</ogr:LATITUDE>
+    <ogr:LONGITUDE>18.558288125299999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="6.133882930268385" lon="1.22081126074562">
+  <name>Lome</name>
+  <extensions>
+    <ogr:ADM0_A3>TGO</ogr:ADM0_A3>
+    <ogr:ISO_A2>TG</ogr:ISO_A2>
+    <ogr:LATITUDE>6.13193707166</ogr:LATITUDE>
+    <ogr:LONGITUDE>1.22275711936</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="3.868646520754112" lon="11.514704896854425">
+  <name>Yaounde</name>
+  <extensions>
+    <ogr:ADM0_A3>CMR</ogr:ADM0_A3>
+    <ogr:ISO_A2>CM</ogr:ISO_A2>
+    <ogr:LATITUDE>3.86670066214</ogr:LATITUDE>
+    <ogr:LONGITUDE>11.516650755500001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="36.802778136231439" lon="10.179678099212026">
+  <name>Tunis</name>
+  <extensions>
+    <ogr:ADM0_A3>TUN</ogr:ADM0_A3>
+    <ogr:ISO_A2>TN</ogr:ISO_A2>
+    <ogr:LATITUDE>36.802778136199997</ogr:LATITUDE>
+    <ogr:LONGITUDE>10.1796780992</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="41.327540709491586" lon="19.81888301461521">
+  <name>Tirana</name>
+  <extensions>
+    <ogr:ADM0_A3>ALB</ogr:ADM0_A3>
+    <ogr:ISO_A2>AL</ogr:ISO_A2>
+    <ogr:LATITUDE>41.327540709499999</ogr:LATITUDE>
+    <ogr:LONGITUDE>19.818883014600001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-1.95164421006325" lon="30.058585919064114">
+  <name>Kigali</name>
+  <extensions>
+    <ogr:ADM0_A3>RWA</ogr:ADM0_A3>
+    <ogr:ISO_A2>RW</ogr:ISO_A2>
+    <ogr:LATITUDE>-1.95359006868</ogr:LATITUDE>
+    <ogr:LONGITUDE>30.0605317777</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-41.299987853691732" lon="174.783265859281897">
+  <name>Wellington</name>
+  <extensions>
+    <ogr:ADM0_A3>NZL</ogr:ADM0_A3>
+    <ogr:ISO_A2>NZ</ogr:ISO_A2>
+    <ogr:LATITUDE>-41.299987853689998</ogr:LATITUDE>
+    <ogr:LONGITUDE>174.783265859279993</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="40.183096594141887" lon="44.511605531752082">
+  <name>Yerevan</name>
+  <extensions>
+    <ogr:ADM0_A3>ARM</ogr:ADM0_A3>
+    <ogr:ISO_A2>AM</ogr:ISO_A2>
+    <ogr:LATITUDE>40.181150735499997</ogr:LATITUDE>
+    <ogr:LONGITUDE>44.513551390400004</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="40.397217891343018" lon="49.860271303257775">
+  <name>Baku</name>
+  <extensions>
+    <ogr:ADM0_A3>AZE</ogr:ADM0_A3>
+    <ogr:ISO_A2>AZ</ogr:ISO_A2>
+    <ogr:LATITUDE>40.395272032699999</ogr:LATITUDE>
+    <ogr:LONGITUDE>49.862217161899999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="11.551975988558411" lon="104.914688621186428">
+  <name>Phnom Penh</name>
+  <extensions>
+    <ogr:ADM0_A3>KHM</ogr:ADM0_A3>
+    <ogr:ISO_A2>KH</ogr:ISO_A2>
+    <ogr:LATITUDE>11.5500301299</ogr:LATITUDE>
+    <ogr:LONGITUDE>104.91663448</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-16.496027755043372" lon="-68.151931049102188">
+  <name>La Paz</name>
+  <extensions>
+    <ogr:ADM0_A3>BOL</ogr:ADM0_A3>
+    <ogr:ISO_A2>BO</ogr:ISO_A2>
+    <ogr:LATITUDE>-16.497973613700001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-68.149985190500004</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="6.401954422782467" lon="2.518044740568598">
+  <name>Cotonou</name>
+  <extensions>
+    <ogr:ADM0_A3>BEN</ogr:ADM0_A3>
+    <ogr:ISO_A2>BJ</ogr:ISO_A2>
+    <ogr:LATITUDE>6.40000856417</ogr:LATITUDE>
+    <ogr:LONGITUDE>2.51999059918</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="24.466683572379907" lon="54.366593382591986">
+  <name>Abu Dhabi</name>
+  <extensions>
+    <ogr:ADM0_A3>ARE</ogr:ADM0_A3>
+    <ogr:ISO_A2>AE</ogr:ISO_A2>
+    <ogr:LATITUDE>24.466683572400001</ogr:LATITUDE>
+    <ogr:LONGITUDE>54.366593382600001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="37.949994933110986" lon="58.383299111774647">
+  <name>Ashgabat</name>
+  <extensions>
+    <ogr:ADM0_A3>TKM</ogr:ADM0_A3>
+    <ogr:ISO_A2>TM</ogr:ISO_A2>
+    <ogr:LATITUDE>37.949994933100001</ogr:LATITUDE>
+    <ogr:LONGITUDE>58.3832991118</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="42.685295283930543" lon="23.314708152110086">
+  <name>Sofia</name>
+  <extensions>
+    <ogr:ADM0_A3>BGR</ogr:ADM0_A3>
+    <ogr:ISO_A2>BG</ogr:ISO_A2>
+    <ogr:LATITUDE>42.683349425300001</ogr:LATITUDE>
+    <ogr:LONGITUDE>23.316654010699999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-26.316650778409212" lon="31.133334512056365">
+  <name>Mbabane</name>
+  <extensions>
+    <ogr:ADM0_A3>SWZ</ogr:ADM0_A3>
+    <ogr:ISO_A2>SZ</ogr:ISO_A2>
+    <ogr:LATITUDE>-26.3166507784</ogr:LATITUDE>
+    <ogr:LONGITUDE>31.133334512099999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="53.901923295043105" lon="27.56468129665825">
+  <name>Minsk</name>
+  <extensions>
+    <ogr:ADM0_A3>BLR</ogr:ADM0_A3>
+    <ogr:ISO_A2>BY</ogr:ISO_A2>
+    <ogr:LATITUDE>53.8999774364</ogr:LATITUDE>
+    <ogr:LONGITUDE>27.566627155300001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-15.414698409335926" lon="28.28138173611427">
+  <name>Lusaka</name>
+  <extensions>
+    <ogr:ADM0_A3>ZMB</ogr:ADM0_A3>
+    <ogr:ISO_A2>ZM</ogr:ISO_A2>
+    <ogr:LATITUDE>-15.416644267900001</ogr:LATITUDE>
+    <ogr:LONGITUDE>28.283327594700001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="27.472985859175765" lon="89.639014037029995">
+  <name>Thimphu</name>
+  <extensions>
+    <ogr:ADM0_A3>BTN</ogr:ADM0_A3>
+    <ogr:ISO_A2>BT</ogr:ISO_A2>
+    <ogr:LATITUDE>27.472985859200001</ogr:LATITUDE>
+    <ogr:LONGITUDE>89.639014037</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-17.815843835777798" lon="31.042763572062825">
+  <name>Harare</name>
+  <extensions>
+    <ogr:ADM0_A3>ZWE</ogr:ADM0_A3>
+    <ogr:ISO_A2>ZW</ogr:ISO_A2>
+    <ogr:LATITUDE>-17.817789694399998</ogr:LATITUDE>
+    <ogr:LONGITUDE>31.044709430699999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-24.646313457438907" lon="25.911947793285378">
+  <name>Gaborone</name>
+  <extensions>
+    <ogr:ADM0_A3>BWA</ogr:ADM0_A3>
+    <ogr:ISO_A2>BW</ogr:ISO_A2>
+    <ogr:LATITUDE>-24.646313457400002</ogr:LATITUDE>
+    <ogr:LONGITUDE>25.911947793300001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="13.453876460315939" lon="-16.591701489212596">
+  <name>Banjul</name>
+  <extensions>
+    <ogr:ADM0_A3>GMB</ogr:ADM0_A3>
+    <ogr:ISO_A2>GM</ogr:ISO_A2>
+    <ogr:LATITUDE>13.4538764603</ogr:LATITUDE>
+    <ogr:LONGITUDE>-16.591701489199998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-8.559388408546454" lon="125.57945593170507">
+  <name>Dili</name>
+  <extensions>
+    <ogr:ADM0_A3>TLS</ogr:ADM0_A3>
+    <ogr:ISO_A2>TL</ogr:ISO_A2>
+    <ogr:LATITUDE>-8.559388408549999</ogr:LATITUDE>
+    <ogr:LONGITUDE>125.579455932</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-17.733350404025828" lon="168.316640583568642">
+  <name>Port Vila</name>
+  <extensions>
+    <ogr:ADM0_A3>VUT</ogr:ADM0_A3>
+    <ogr:ISO_A2>VU</ogr:ISO_A2>
+    <ogr:LATITUDE>-17.733350404</ogr:LATITUDE>
+    <ogr:LONGITUDE>168.316640584</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-35.283028545372076" lon="149.129026244299212">
+  <name>Canberra</name>
+  <extensions>
+    <ogr:ADM0_A3>AUS</ogr:ADM0_A3>
+    <ogr:ISO_A2>AU</ogr:ISO_A2>
+    <ogr:LATITUDE>-35.283028545400001</ogr:LATITUDE>
+    <ogr:LONGITUDE>149.129026243999988</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="14.103990759076396" lon="-87.219475197941506">
+  <name>Tegucigalpa</name>
+  <extensions>
+    <ogr:ADM0_A3>HND</ogr:ADM0_A3>
+    <ogr:ISO_A2>HN</ogr:ISO_A2>
+    <ogr:LATITUDE>14.102044900499999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-87.2175293393</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="6.801973692752028" lon="-58.167028647480606">
+  <name>Georgetown</name>
+  <extensions>
+    <ogr:ADM0_A3>GUY</ogr:ADM0_A3>
+    <ogr:ISO_A2>GY</ogr:ISO_A2>
+    <ogr:LATITUDE>6.80197369275</ogr:LATITUDE>
+    <ogr:LONGITUDE>-58.167028647499997</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="64.150023619739216" lon="-21.950014487179544">
+  <name>Reykjav k</name>
+  <extensions>
+    <ogr:ADM0_A3>ISL</ogr:ADM0_A3>
+    <ogr:ISO_A2>IS</ogr:ISO_A2>
+    <ogr:LATITUDE>64.150023619699994</ogr:LATITUDE>
+    <ogr:LONGITUDE>-21.950014487200001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="18.542970454732369" lon="-72.337980446905533">
+  <name>Port-au-Prince</name>
+  <extensions>
+    <ogr:ADM0_A3>HTI</ogr:ADM0_A3>
+    <ogr:ISO_A2>HT</ogr:ISO_A2>
+    <ogr:LATITUDE>18.541024596100002</ogr:LATITUDE>
+    <ogr:LONGITUDE>-72.336034588299995</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="0.318604813383331" lon="32.581377667121046">
+  <name>Kampala</name>
+  <extensions>
+    <ogr:ADM0_A3>UGA</ogr:ADM0_A3>
+    <ogr:ISO_A2>UG</ogr:ISO_A2>
+    <ogr:LATITUDE>0.31665895477</ogr:LATITUDE>
+    <ogr:LONGITUDE>32.583323525700003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="12.372261836543373" lon="-1.526669614916443">
+  <name>Ouagadougou</name>
+  <extensions>
+    <ogr:ADM0_A3>BFA</ogr:ADM0_A3>
+    <ogr:ISO_A2>BF</ogr:ISO_A2>
+    <ogr:LATITUDE>12.370315977900001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-1.5247237563</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="43.850022398954934" lon="18.383001666953305">
+  <name>Sarajevo</name>
+  <extensions>
+    <ogr:ADM0_A3>BIH</ogr:ADM0_A3>
+    <ogr:ISO_A2>BA</ogr:ISO_A2>
+    <ogr:LATITUDE>43.850022399</ogr:LATITUDE>
+    <ogr:LONGITUDE>18.383001667</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="5.835030129922586" lon="-55.167030885424367">
+  <name>Paramaribo</name>
+  <extensions>
+    <ogr:ADM0_A3>SUR</ogr:ADM0_A3>
+    <ogr:ISO_A2>SR</ogr:ISO_A2>
+    <ogr:LATITUDE>5.83503012992</ogr:LATITUDE>
+    <ogr:LONGITUDE>-55.167030885400003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="19.768502884750148" lon="96.116672670630351">
+  <name>Naypyidaw</name>
+  <extensions>
+    <ogr:ADM0_A3>MMR</ogr:ADM0_A3>
+    <ogr:ISO_A2>MM</ogr:ISO_A2>
+    <ogr:LATITUDE>19.766557026099999</ogr:LATITUDE>
+    <ogr:LONGITUDE>96.118618529200006</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="13.518651810506469" lon="2.114710186530374">
+  <name>Niamey</name>
+  <extensions>
+    <ogr:ADM0_A3>NER</ogr:ADM0_A3>
+    <ogr:ISO_A2>NE</ogr:ISO_A2>
+    <ogr:LATITUDE>13.516705951900001</ogr:LATITUDE>
+    <ogr:LONGITUDE>2.11665604514</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="4.829975198277964" lon="31.580025592787308">
+  <name>Juba</name>
+  <extensions>
+    <ogr:ADM0_A3>SSD</ogr:ADM0_A3>
+    <ogr:ISO_A2>SS</ogr:ISO_A2>
+    <ogr:LATITUDE>4.82997519828</ogr:LATITUDE>
+    <ogr:LONGITUDE>31.580025592799998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-21.138512356698641" lon="-175.220564477616563">
+  <name>Nukualofa</name>
+  <extensions>
+    <ogr:ADM0_A3>TON</ogr:ADM0_A3>
+    <ogr:ISO_A2>TO</ogr:ISO_A2>
+    <ogr:LATITUDE>-21.138512356700002</ogr:LATITUDE>
+    <ogr:LONGITUDE>-175.220564478</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="38.560035216316578" lon="68.773879352701726">
+  <name>Dushanbe</name>
+  <extensions>
+    <ogr:ADM0_A3>TJK</ogr:ADM0_A3>
+    <ogr:ISO_A2>TJ</ogr:ISO_A2>
+    <ogr:LATITUDE>38.560035216300001</ogr:LATITUDE>
+    <ogr:LONGITUDE>68.773879352700007</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="9.56002239881775" lon="44.065310016665421">
+  <name>Hargeysa</name>
+  <extensions>
+    <ogr:ADM0_A3>SOL</ogr:ADM0_A3>
+    <ogr:ISO_A2>-99</ogr:ISO_A2>
+    <ogr:LATITUDE>9.560022398819999</ogr:LATITUDE>
+    <ogr:LONGITUDE>44.065310016700003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-4.6166316539734" lon="55.449989785591129">
+  <name>Victoria</name>
+  <extensions>
+    <ogr:ADM0_A3>SYC</ogr:ADM0_A3>
+    <ogr:ISO_A2>SC</ogr:ISO_A2>
+    <ogr:LATITUDE>-4.61663165397</ogr:LATITUDE>
+    <ogr:LONGITUDE>55.449989785600003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="0.333402118832907" lon="6.733325153234773">
+  <name>Sao Tome</name>
+  <extensions>
+    <ogr:ADM0_A3>STP</ogr:ADM0_A3>
+    <ogr:ISO_A2>ST</ogr:ISO_A2>
+    <ogr:LATITUDE>0.33340211883</ogr:LATITUDE>
+    <ogr:LONGITUDE>6.73332515323</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-13.841545042448445" lon="-171.73864160860316">
+  <name>Apia</name>
+  <extensions>
+    <ogr:ADM0_A3>WSM</ogr:ADM0_A3>
+    <ogr:ISO_A2>WS</ogr:ISO_A2>
+    <ogr:LATITUDE>-13.8415450424</ogr:LATITUDE>
+    <ogr:LONGITUDE>-171.738641609000013</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="46.055288308794502" lon="14.514969033474131">
+  <name>Ljubljana</name>
+  <extensions>
+    <ogr:ADM0_A3>SVN</ogr:ADM0_A3>
+    <ogr:ISO_A2>SI</ogr:ISO_A2>
+    <ogr:LATITUDE>46.055288308800002</ogr:LATITUDE>
+    <ogr:LONGITUDE>14.5149690335</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="35.899732481930869" lon="14.514710651312782">
+  <name>Valletta</name>
+  <extensions>
+    <ogr:ADM0_A3>MLT</ogr:ADM0_A3>
+    <ogr:ISO_A2>MT</ogr:ISO_A2>
+    <ogr:LATITUDE>35.899732481900003</ogr:LATITUDE>
+    <ogr:LONGITUDE>14.5147106513</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-25.294457117057675" lon="-57.643451027901335">
+  <name>Asuncion</name>
+  <extensions>
+    <ogr:ADM0_A3>PRY</ogr:ADM0_A3>
+    <ogr:ISO_A2>PY</ogr:ISO_A2>
+    <ogr:LATITUDE>-25.296402975700001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-57.641505169299997</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="48.150018329961711" lon="17.11698075223461">
+  <name>Bratislava</name>
+  <extensions>
+    <ogr:ADM0_A3>SVK</ogr:ADM0_A3>
+    <ogr:ISO_A2>SK</ogr:ISO_A2>
+    <ogr:LATITUDE>48.15001833</ogr:LATITUDE>
+    <ogr:LONGITUDE>17.1169807522</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="4.1667081898118" lon="73.499947467954996">
+  <name>Male</name>
+  <extensions>
+    <ogr:ADM0_A3>MDV</ogr:ADM0_A3>
+    <ogr:ISO_A2>MV</ogr:ISO_A2>
+    <ogr:LATITUDE>4.16670818981</ogr:LATITUDE>
+    <ogr:LONGITUDE>73.499947468</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="12.154962438756115" lon="-86.27043751890119">
+  <name>Managua</name>
+  <extensions>
+    <ogr:ADM0_A3>NIC</ogr:ADM0_A3>
+    <ogr:ISO_A2>NI</ogr:ISO_A2>
+    <ogr:LATITUDE>12.153016580099999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-86.2684916603</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="31.778407815573303" lon="35.206625934598662">
+  <name>Jerusalem</name>
+  <extensions>
+    <ogr:ADM0_A3>ISR</ogr:ADM0_A3>
+    <ogr:ISO_A2>IL</ogr:ISO_A2>
+    <ogr:LATITUDE>31.778407815600001</ogr:LATITUDE>
+    <ogr:LONGITUDE>35.206625934599998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="8.471957271098177" lon="-13.236161599012746">
+  <name>Freetown</name>
+  <extensions>
+    <ogr:ADM0_A3>SLE</ogr:ADM0_A3>
+    <ogr:ISO_A2>SL</ogr:ISO_A2>
+    <ogr:LATITUDE>8.470011412490001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-13.2342157404</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="25.286556008906587" lon="51.532967894299304">
+  <name>Doha</name>
+  <extensions>
+    <ogr:ADM0_A3>QAT</ogr:ADM0_A3>
+    <ogr:ISO_A2>QA</ogr:ISO_A2>
+    <ogr:LATITUDE>25.2865560089</ogr:LATITUDE>
+    <ogr:LONGITUDE>51.5329678943</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="14.916698017328656" lon="-23.516688884972211">
+  <name>Praia</name>
+  <extensions>
+    <ogr:ADM0_A3>CPV</ogr:ADM0_A3>
+    <ogr:ISO_A2>CV</ogr:ISO_A2>
+    <ogr:LATITUDE>14.9166980173</ogr:LATITUDE>
+    <ogr:LONGITUDE>-23.516688885</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="25.083390115351222" lon="-77.350043784276124">
+  <name>Nassau</name>
+  <extensions>
+    <ogr:ADM0_A3>BHS</ogr:ADM0_A3>
+    <ogr:ISO_A2>BS</ogr:ISO_A2>
+    <ogr:LATITUDE>25.0833901154</ogr:LATITUDE>
+    <ogr:LONGITUDE>-77.350043784299999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="35.166676451654496" lon="33.366634886414147">
+  <name>Nicosia</name>
+  <extensions>
+    <ogr:ADM0_A3>CYP</ogr:ADM0_A3>
+    <ogr:ISO_A2>CY</ogr:ISO_A2>
+    <ogr:LATITUDE>35.166676451699999</ogr:LATITUDE>
+    <ogr:LONGITUDE>33.3666348864</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="33.701941808959589" lon="73.164688621059554">
+  <name>Islamabad</name>
+  <extensions>
+    <ogr:ADM0_A3>PAK</ogr:ADM0_A3>
+    <ogr:ISO_A2>PK</ogr:ISO_A2>
+    <ogr:LATITUDE>33.6999959503</ogr:LATITUDE>
+    <ogr:LONGITUDE>73.166634479699994</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="42.000006122905859" lon="21.4334614651425">
+  <name>Skopje</name>
+  <extensions>
+    <ogr:ADM0_A3>MKD</ogr:ADM0_A3>
+    <ogr:ISO_A2>MK</ogr:ISO_A2>
+    <ogr:LATITUDE>42.000006122899997</ogr:LATITUDE>
+    <ogr:LONGITUDE>21.433461465099999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="27.718637772477223" lon="85.314696352227884">
+  <name>Kathmandu</name>
+  <extensions>
+    <ogr:ADM0_A3>NPL</ogr:ADM0_A3>
+    <ogr:ISO_A2>NP</ogr:ISO_A2>
+    <ogr:LATITUDE>27.7166919139</ogr:LATITUDE>
+    <ogr:LONGITUDE>85.316642210799998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-29.119993877378704" lon="26.22991288117737">
+  <name>Bloemfontein</name>
+  <extensions>
+    <ogr:ADM0_A3>ZAF</ogr:ADM0_A3>
+    <ogr:ISO_A2>ZA</ogr:ISO_A2>
+    <ogr:LATITUDE>-29.119993877399999</ogr:LATITUDE>
+    <ogr:LONGITUDE>26.229912881200001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-25.704974695184433" lon="28.227483217233839">
+  <name>Pretoria</name>
+  <extensions>
+    <ogr:ADM0_A3>ZAF</ogr:ADM0_A3>
+    <ogr:ISO_A2>ZA</ogr:ISO_A2>
+    <ogr:LATITUDE>-25.7069205538</ogr:LATITUDE>
+    <ogr:LONGITUDE>28.229429075799999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-9.464707825867777" lon="147.192503620593584">
+  <name>Port Moresby</name>
+  <extensions>
+    <ogr:ADM0_A3>PNG</ogr:ADM0_A3>
+    <ogr:ISO_A2>PG</ogr:ISO_A2>
+    <ogr:LATITUDE>-9.464707825870001</ogr:LATITUDE>
+    <ogr:LONGITUDE>147.192503620999986</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-9.437994295089595" lon="159.949765733605659">
+  <name>Honiara</name>
+  <extensions>
+    <ogr:ADM0_A3>SLB</ogr:ADM0_A3>
+    <ogr:ISO_A2>SB</ogr:ISO_A2>
+    <ogr:LATITUDE>-9.43799429509</ogr:LATITUDE>
+    <ogr:LONGITUDE>159.94976573400001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="8.969963049094872" lon="-79.53498301041077">
+  <name>Panama City</name>
+  <extensions>
+    <ogr:ADM0_A3>PAN</ogr:ADM0_A3>
+    <ogr:ISO_A2>PA</ogr:ISO_A2>
+    <ogr:LATITUDE>8.968017190479999</ogr:LATITUDE>
+    <ogr:LONGITUDE>-79.533037151800002</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="42.465972512881706" lon="19.266306924118226">
+  <name>Podgorica</name>
+  <extensions>
+    <ogr:ADM0_A3>MNE</ogr:ADM0_A3>
+    <ogr:ISO_A2>ME</ogr:ISO_A2>
+    <ogr:LATITUDE>42.465972512900002</ogr:LATITUDE>
+    <ogr:LONGITUDE>19.2663069241</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="21.035273107737055" lon="105.848068341242197">
+  <name>Hanoi</name>
+  <extensions>
+    <ogr:ADM0_A3>VNM</ogr:ADM0_A3>
+    <ogr:ISO_A2>VN</ogr:ISO_A2>
+    <ogr:LATITUDE>21.033327249100001</ogr:LATITUDE>
+    <ogr:LONGITUDE>105.8500142</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="34.025307311072822" lon="-6.83640815612614">
+  <name>Rabat</name>
+  <extensions>
+    <ogr:ADM0_A3>MAR</ogr:ADM0_A3>
+    <ogr:ISO_A2>MA</ogr:ISO_A2>
+    <ogr:LATITUDE>34.025299091599997</ogr:LATITUDE>
+    <ogr:LONGITUDE>-6.83613082013</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="39.929184444075474" lon="32.862445782356644">
+  <name>Ankara</name>
+  <extensions>
+    <ogr:ADM0_A3>TUR</ogr:ADM0_A3>
+    <ogr:ISO_A2>TR</ogr:ISO_A2>
+    <ogr:LATITUDE>39.9272385855</ogr:LATITUDE>
+    <ogr:LONGITUDE>32.864391641</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="47.005023619670624" lon="28.857711139651428">
+  <name>Chisinau</name>
+  <extensions>
+    <ogr:ADM0_A3>MDA</ogr:ADM0_A3>
+    <ogr:ISO_A2>MD</ogr:ISO_A2>
+    <ogr:LATITUDE>47.005023619699998</ogr:LATITUDE>
+    <ogr:LONGITUDE>28.857711139700001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="43.936095834768004" lon="12.441770157800141">
+  <name>San Marino</name>
+  <extensions>
+    <ogr:ADM0_A3>SMR</ogr:ADM0_A3>
+    <ogr:ISO_A2>SM</ogr:ISO_A2>
+    <ogr:LATITUDE>43.917150084500001</ogr:LATITUDE>
+    <ogr:LONGITUDE>12.466670286699999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="47.501952184991353" lon="19.081374818759684">
+  <name>Budapest</name>
+  <extensions>
+    <ogr:ADM0_A3>HUN</ogr:ADM0_A3>
+    <ogr:ISO_A2>HU</ogr:ISO_A2>
+    <ogr:LATITUDE>47.500006326399998</ogr:LATITUDE>
+    <ogr:LONGITUDE>19.0833206774</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="15.356679154263645" lon="44.204647523938434">
+  <name>Sanaa</name>
+  <extensions>
+    <ogr:ADM0_A3>YEM</ogr:ADM0_A3>
+    <ogr:ISO_A2>YE</ogr:ISO_A2>
+    <ogr:LATITUDE>15.354733295699999</ogr:LATITUDE>
+    <ogr:LONGITUDE>44.206593382599998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-25.953331628778983" lon="32.58721710397009">
+  <name>Maputo</name>
+  <extensions>
+    <ogr:ADM0_A3>MOZ</ogr:ADM0_A3>
+    <ogr:ISO_A2>MZ</ogr:ISO_A2>
+    <ogr:LATITUDE>-25.9552774874</ogr:LATITUDE>
+    <ogr:LONGITUDE>32.5891629626</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="44.435317663494573" lon="26.098000795350401">
+  <name>Bucharest</name>
+  <extensions>
+    <ogr:ADM0_A3>ROU</ogr:ADM0_A3>
+    <ogr:ISO_A2>RO</ogr:ISO_A2>
+    <ogr:LATITUDE>44.433371804899998</ogr:LATITUDE>
+    <ogr:LONGITUDE>26.099946654</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="47.133723774293571" lon="9.516669472907267">
+  <name>Vaduz</name>
+  <extensions>
+    <ogr:ADM0_A3>LIE</ogr:ADM0_A3>
+    <ogr:ISO_A2>LI</ogr:ISO_A2>
+    <ogr:LATITUDE>47.133723774300002</ogr:LATITUDE>
+    <ogr:LONGITUDE>9.516669472909999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="33.501979854206127" lon="36.298050030417073">
+  <name>Damascus</name>
+  <extensions>
+    <ogr:ADM0_A3>SYR</ogr:ADM0_A3>
+    <ogr:ISO_A2>SY</ogr:ISO_A2>
+    <ogr:LATITUDE>33.500033995599999</ogr:LATITUDE>
+    <ogr:LONGITUDE>36.299995889</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="38.724668736487843" lon="-9.14681216410213">
+  <name>Lisbon</name>
+  <extensions>
+    <ogr:ADM0_A3>PRT</ogr:ADM0_A3>
+    <ogr:ISO_A2>PT</ogr:ISO_A2>
+    <ogr:LATITUDE>38.722722877899997</ogr:LATITUDE>
+    <ogr:LONGITUDE>-9.14486630549</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="15.590024084277673" lon="32.532233380011576">
+  <name>Khartoum</name>
+  <extensions>
+    <ogr:ADM0_A3>SDN</ogr:ADM0_A3>
+    <ogr:ISO_A2>SD</ogr:ISO_A2>
+    <ogr:LATITUDE>15.5880782257</ogr:LATITUDE>
+    <ogr:LONGITUDE>32.534179238599997</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="59.918636145001869" lon="10.748033347372314">
+  <name>Oslo</name>
+  <extensions>
+    <ogr:ADM0_A3>NOR</ogr:ADM0_A3>
+    <ogr:ISO_A2>NO</ogr:ISO_A2>
+    <ogr:LATITUDE>59.916690286399998</ogr:LATITUDE>
+    <ogr:LONGITUDE>10.749979206</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="2.068627192947531" lon="45.364731752458738">
+  <name>Mogadishu</name>
+  <extensions>
+    <ogr:ADM0_A3>SOM</ogr:ADM0_A3>
+    <ogr:ISO_A2>SO</ogr:ISO_A2>
+    <ogr:LATITUDE>2.06668133433</ogr:LATITUDE>
+    <ogr:LONGITUDE>45.366677611100002</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="23.613324807728134" lon="58.593312132608844">
+  <name>Muscat</name>
+  <extensions>
+    <ogr:ADM0_A3>OMN</ogr:ADM0_A3>
+    <ogr:ISO_A2>OM</ogr:ISO_A2>
+    <ogr:LATITUDE>23.6133248077</ogr:LATITUDE>
+    <ogr:LONGITUDE>58.593312132599998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="6.931965758182116" lon="79.857750609256414">
+  <name>Colombo</name>
+  <extensions>
+    <ogr:ADM0_A3>LKA</ogr:ADM0_A3>
+    <ogr:ISO_A2>LK</ogr:ISO_A2>
+    <ogr:LATITUDE>6.93196575818</ogr:LATITUDE>
+    <ogr:LONGITUDE>79.857750609299998</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="52.251946488395561" lon="20.998053692465305">
+  <name>Warsaw</name>
+  <extensions>
+    <ogr:ADM0_A3>POL</ogr:ADM0_A3>
+    <ogr:ISO_A2>PL</ogr:ISO_A2>
+    <ogr:LATITUDE>52.250000629799999</ogr:LATITUDE>
+    <ogr:LONGITUDE>20.9999995511</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="39.021384558004343" lon="125.752744854993921">
+  <name>Pyongyang</name>
+  <extensions>
+    <ogr:ADM0_A3>PRK</ogr:ADM0_A3>
+    <ogr:ISO_A2>KP</ogr:ISO_A2>
+    <ogr:LATITUDE>39.019438699399998</ogr:LATITUDE>
+    <ogr:LONGITUDE>125.754690714</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-6.798066736124383" lon="39.266395977694572">
+  <name>Dar es Salaam</name>
+  <extensions>
+    <ogr:ADM0_A3>TZA</ogr:ADM0_A3>
+    <ogr:ISO_A2>TZ</ogr:ISO_A2>
+    <ogr:LATITUDE>-6.80001259474</ogr:LATITUDE>
+    <ogr:LONGITUDE>39.268341836300003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="53.335006994584944" lon="-6.250851540391068">
+  <name>Dublin</name>
+  <extensions>
+    <ogr:ADM0_A3>IRL</ogr:ADM0_A3>
+    <ogr:ISO_A2>IE</ogr:ISO_A2>
+    <ogr:LATITUDE>53.333061136</ogr:LATITUDE>
+    <ogr:LONGITUDE>-6.24890568178</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="6.314581647160139" lon="-10.799660436775923">
+  <name>Monrovia</name>
+  <extensions>
+    <ogr:ADM0_A3>LBR</ogr:ADM0_A3>
+    <ogr:ISO_A2>LR</ogr:ISO_A2>
+    <ogr:LATITUDE>6.31055665987</ogr:LATITUDE>
+    <ogr:LONGITUDE>-10.8047516291</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="3.168611730712371" lon="101.698037416746445">
+  <name>Kuala Lumpur</name>
+  <extensions>
+    <ogr:ADM0_A3>MYS</ogr:ADM0_A3>
+    <ogr:ISO_A2>MY</ogr:ISO_A2>
+    <ogr:LATITUDE>3.1666658721</ogr:LATITUDE>
+    <ogr:LONGITUDE>101.69998327499999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="23.1339046995422" lon="-82.366128029953302">
+  <name>Havana</name>
+  <extensions>
+    <ogr:ADM0_A3>CUB</ogr:ADM0_A3>
+    <ogr:ISO_A2>CU</ogr:ISO_A2>
+    <ogr:LATITUDE>23.131958840900001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-82.364182171300001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="50.08528287347832" lon="14.464033917048539">
+  <name>Prague</name>
+  <extensions>
+    <ogr:ADM0_A3>CZE</ogr:ADM0_A3>
+    <ogr:ISO_A2>CZ</ogr:ISO_A2>
+    <ogr:LATITUDE>50.083337014900003</ogr:LATITUDE>
+    <ogr:LONGITUDE>14.465979775699999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="47.918619258560739" lon="106.914669903746528">
+  <name>Ulaanbaatar</name>
+  <extensions>
+    <ogr:ADM0_A3>MNG</ogr:ADM0_A3>
+    <ogr:ISO_A2>MN</ogr:ISO_A2>
+    <ogr:LATITUDE>47.916673399899999</ogr:LATITUDE>
+    <ogr:LONGITUDE>106.916615762</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="29.371663488629565" lon="47.976355287625267">
+  <name>Kuwait</name>
+  <extensions>
+    <ogr:ADM0_A3>KWT</ogr:ADM0_A3>
+    <ogr:ISO_A2>KW</ogr:ISO_A2>
+    <ogr:LATITUDE>29.36971763</ogr:LATITUDE>
+    <ogr:LONGITUDE>47.978301146200003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-22.570006084383806" lon="17.08354610054181">
+  <name>Windhoek</name>
+  <extensions>
+    <ogr:ADM0_A3>NAM</ogr:ADM0_A3>
+    <ogr:ISO_A2>NA</ogr:ISO_A2>
+    <ogr:LATITUDE>-22.570006084399999</ogr:LATITUDE>
+    <ogr:LONGITUDE>17.083546100500001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="6.916643696007725" lon="158.149974323762308">
+  <name>Palikir</name>
+  <extensions>
+    <ogr:ADM0_A3>FSM</ogr:ADM0_A3>
+    <ogr:ISO_A2>FM</ogr:ISO_A2>
+    <ogr:LATITUDE>6.91664369601</ogr:LATITUDE>
+    <ogr:LONGITUDE>158.149974324</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="9.085279007754195" lon="7.53138214293233">
+  <name>Abuja</name>
+  <extensions>
+    <ogr:ADM0_A3>NGA</ogr:ADM0_A3>
+    <ogr:ISO_A2>NG</ogr:ISO_A2>
+    <ogr:LATITUDE>9.08333314914</ogr:LATITUDE>
+    <ogr:LONGITUDE>7.53332800155</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="7.103004311216239" lon="171.380000175746545">
+  <name>Majuro</name>
+  <extensions>
+    <ogr:ADM0_A3>MHL</ogr:ADM0_A3>
+    <ogr:ISO_A2>MH</ogr:ISO_A2>
+    <ogr:LATITUDE>7.10300431122</ogr:LATITUDE>
+    <ogr:LONGITUDE>171.38000017600001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="11.865023822980561" lon="-15.598360841320755">
+  <name>Bissau</name>
+  <extensions>
+    <ogr:ADM0_A3>GNB</ogr:ADM0_A3>
+    <ogr:ISO_A2>GW</ogr:ISO_A2>
+    <ogr:LATITUDE>11.865023823</ogr:LATITUDE>
+    <ogr:LONGITUDE>-15.5983608413</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-8.516651999041073" lon="179.216647094028872">
+  <name>Funafuti</name>
+  <extensions>
+    <ogr:ADM0_A3>TUV</ogr:ADM0_A3>
+    <ogr:ISO_A2>TV</ogr:ISO_A2>
+    <ogr:LATITUDE>-8.51665199904</ogr:LATITUDE>
+    <ogr:LONGITUDE>179.216647094</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="31.951971105827454" lon="35.931354066874121">
+  <name>Amman</name>
+  <extensions>
+    <ogr:ADM0_A3>JOR</ogr:ADM0_A3>
+    <ogr:ISO_A2>JO</ogr:ISO_A2>
+    <ogr:LATITUDE>31.950025247199999</ogr:LATITUDE>
+    <ogr:LONGITUDE>35.933299925500002</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="7.487396172977981" lon="134.626548466992176">
+  <name>Melekeok</name>
+  <extensions>
+    <ogr:ADM0_A3>PLW</ogr:ADM0_A3>
+    <ogr:ISO_A2>PW</ogr:ISO_A2>
+    <ogr:LATITUDE>7.48739617298</ogr:LATITUDE>
+    <ogr:LONGITUDE>134.62654846699999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="54.683366311758618" lon="25.3166352932829">
+  <name>Vilnius</name>
+  <extensions>
+    <ogr:ADM0_A3>LTU</ogr:ADM0_A3>
+    <ogr:ISO_A2>LT</ogr:ISO_A2>
+    <ogr:LATITUDE>54.6833663118</ogr:LATITUDE>
+    <ogr:LONGITUDE>25.316635293299999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="56.950023823160961" lon="24.099965371403187">
+  <name>Riga</name>
+  <extensions>
+    <ogr:ADM0_A3>LVA</ogr:ADM0_A3>
+    <ogr:ISO_A2>LV</ogr:ISO_A2>
+    <ogr:LATITUDE>56.950023823199999</ogr:LATITUDE>
+    <ogr:LONGITUDE>24.0999653714</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="43.739645687852487" lon="7.406913173465057">
+  <name>Monaco</name>
+  <extensions>
+    <ogr:ADM0_A3>MCO</ogr:ADM0_A3>
+    <ogr:ISO_A2>MC</ogr:ISO_A2>
+    <ogr:LATITUDE>43.739645687900001</ogr:LATITUDE>
+    <ogr:LONGITUDE>7.40691317347</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="42.875025305090105" lon="74.583258363903667">
+  <name>Bishkek</name>
+  <extensions>
+    <ogr:ADM0_A3>KGZ</ogr:ADM0_A3>
+    <ogr:ISO_A2>KG</ogr:ISO_A2>
+    <ogr:LATITUDE>42.8730794465</ogr:LATITUDE>
+    <ogr:LONGITUDE>74.585204222499996</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="1.338187505624603" lon="173.017570828549424">
+  <name>Tarawa</name>
+  <extensions>
+    <ogr:ADM0_A3>KIR</ogr:ADM0_A3>
+    <ogr:ISO_A2>KI</ogr:ISO_A2>
+    <ogr:LATITUDE>1.33818750562</ogr:LATITUDE>
+    <ogr:LONGITUDE>173.01757082899999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-11.704157695668471" lon="43.240244098693324">
+  <name>Moroni</name>
+  <extensions>
+    <ogr:ADM0_A3>COM</ogr:ADM0_A3>
+    <ogr:ISO_A2>KM</ogr:ISO_A2>
+    <ogr:LATITUDE>-11.704157695699999</ogr:LATITUDE>
+    <ogr:LONGITUDE>43.240244098700003</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="42.500001443545898" lon="1.51648596050552">
+  <name>Andorra</name>
+  <extensions>
+    <ogr:ADM0_A3>AND</ogr:ADM0_A3>
+    <ogr:ISO_A2>AD</ogr:ISO_A2>
+    <ogr:LATITUDE>42.500001443499997</ogr:LATITUDE>
+    <ogr:LONGITUDE>1.51648596051</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="18.472018713195382" lon="-69.902030943315026">
+  <name>Santo Domingo</name>
+  <extensions>
+    <ogr:ADM0_A3>DOM</ogr:ADM0_A3>
+    <ogr:ISO_A2>DO</ogr:ISO_A2>
+    <ogr:LATITUDE>18.470072854600001</ogr:LATITUDE>
+    <ogr:LONGITUDE>-69.900085084699995</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="5.551980464445933" lon="-0.218661598960693">
+  <name>Accra</name>
+  <extensions>
+    <ogr:ADM0_A3>GHA</ogr:ADM0_A3>
+    <ogr:ISO_A2>GH</ogr:ISO_A2>
+    <ogr:LATITUDE>5.55003460583</ogr:LATITUDE>
+    <ogr:LONGITUDE>-0.21671574035</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-29.316674378681626" lon="27.483273069984477">
+  <name>Maseru</name>
+  <extensions>
+    <ogr:ADM0_A3>LSO</ogr:ADM0_A3>
+    <ogr:ISO_A2>LS</ogr:ISO_A2>
+    <ogr:LATITUDE>-29.3166743787</ogr:LATITUDE>
+    <ogr:LONGITUDE>27.48327307</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="-18.914691492032148" lon="47.514678041529862">
+  <name>Antananarivo</name>
+  <extensions>
+    <ogr:ADM0_A3>MDG</ogr:ADM0_A3>
+    <ogr:ISO_A2>MG</ogr:ISO_A2>
+    <ogr:LATITUDE>-18.916637350599999</ogr:LATITUDE>
+    <ogr:LONGITUDE>47.516623900100001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="32.89250001935369" lon="13.180011758078194">
+  <name>Tripoli</name>
+  <extensions>
+    <ogr:ADM0_A3>LBY</ogr:ADM0_A3>
+    <ogr:ISO_A2>LY</ogr:ISO_A2>
+    <ogr:LATITUDE>32.892500019400003</ogr:LATITUDE>
+    <ogr:LONGITUDE>13.180011758099999</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+<wpt lat="60.17750923256807" lon="24.932180482845581">
+  <name>Helsinki</name>
+  <extensions>
+    <ogr:ADM0_A3>FIN</ogr:ADM0_A3>
+    <ogr:ISO_A2>FI</ogr:ISO_A2>
+    <ogr:LATITUDE>60.175563374</ogr:LATITUDE>
+    <ogr:LONGITUDE>24.934126341500001</ogr:LONGITUDE>
+  </extensions>
+</wpt>
+</gpx>

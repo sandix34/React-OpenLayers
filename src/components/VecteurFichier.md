@@ -26,7 +26,7 @@ class VecteurFichier extends Component {
 
     // Source de données du vecteur en format GeoJSON
     this.sourceGeoJSON = new VectorSource({
-    url: '../../styleguide/data/pays.geojson',
+    url: '../../public/data/pays.geojson',
 	format: new GeoJSON()
     });
     // Déclaration de la couche vectorielle	
@@ -36,7 +36,7 @@ class VecteurFichier extends Component {
 
     // Source de données du vecteur en format GPX
     this.sourceGPX = new VectorSource({ 
-	url: '../../styleguide/data/capitales.gpx',
+	url: '../../public/data/capitales.gpx',
 	format: new GPX()
     });
     // Déclaration de la couche vectorielle	

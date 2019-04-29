@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+    </head>
+    <body>
+        <pre><code class="language-js"><div><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">"react"</span>;
+
+<span class="hljs-keyword">import</span> <span class="hljs-string">'ol/ol.css'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-built_in">Map</span> <span class="hljs-keyword">from</span> <span class="hljs-string">'ol/Map'</span>;
+<span class="hljs-keyword">import</span> View <span class="hljs-keyword">from</span> <span class="hljs-string">'ol/View'</span>;
+<span class="hljs-keyword">import</span> TileLayer <span class="hljs-keyword">from</span> <span class="hljs-string">'ol/layer/Tile'</span>;
+<span class="hljs-keyword">import</span> OSM <span class="hljs-keyword">from</span> <span class="hljs-string">'ol/source/OSM'</span>;
+
+<span class="hljs-keyword">import</span> {fromLonLat} <span class="hljs-keyword">from</span> <span class="hljs-string">'ol/proj'</span>;
+
+<span class="hljs-keyword">import</span> { defaults, OverviewMap, MousePosition, FullScreen, Rotate, ZoomSlider, ZoomToExtent, ScaleLine } <span class="hljs-keyword">from</span> <span class="hljs-string">'ol/control.js'</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Controles</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+  <span class="hljs-keyword">constructor</span>(props) {
+    <span class="hljs-keyword">super</span>(props);
+
+    <span class="hljs-keyword">this</span>.state = { 
+        <span class="hljs-attr">center</span>: fromLonLat([<span class="hljs-number">1.3529599</span>,<span class="hljs-number">44.0221252</span>]), 
+        <span class="hljs-attr">zoom</span>: <span class="hljs-number">5</span> 
+    };
+
+    <span class="hljs-keyword">this</span>.olmap = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Map</span>({
+      <span class="hljs-attr">target</span>: <span class="hljs-literal">null</span>,
+      <span class="hljs-attr">layers</span>: [
+        <span class="hljs-keyword">new</span> TileLayer({
+          <span class="hljs-attr">source</span>: <span class="hljs-keyword">new</span> OSM()
+        })
+      ],
+      <span class="hljs-attr">view</span>: <span class="hljs-keyword">new</span> View({
+        <span class="hljs-attr">center</span>: <span class="hljs-keyword">this</span>.state.center,
+        <span class="hljs-attr">zoom</span>: <span class="hljs-keyword">this</span>.state.zoom
+      }),
+      <span class="hljs-attr">controls</span>: defaults({
+		            <span class="hljs-attr">attribution</span> : <span class="hljs-literal">true</span>,
+		            <span class="hljs-attr">zoom</span> : <span class="hljs-literal">true</span>,
+            })
+    });
+  }
+
+  updateMap() {
+    <span class="hljs-keyword">this</span>.olmap.getView().setCenter(<span class="hljs-keyword">this</span>.state.center);
+    <span class="hljs-keyword">this</span>.olmap.getView().setZoom(<span class="hljs-keyword">this</span>.state.zoom);
+  }
+
+  componentDidMount() {
+    <span class="hljs-keyword">this</span>.olmap.setTarget(<span class="hljs-string">"map4"</span>);
+
+    <span class="hljs-comment">// Listen to map changes</span>
+    <span class="hljs-keyword">this</span>.olmap.on(<span class="hljs-string">"moveend"</span>, () =&gt; {
+      <span class="hljs-keyword">let</span> center = <span class="hljs-keyword">this</span>.olmap.getView().getCenter();
+      <span class="hljs-keyword">let</span> zoom = <span class="hljs-keyword">this</span>.olmap.getView().getZoom();
+      <span class="hljs-keyword">this</span>.setState({ center, zoom });
+    });
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    <span class="hljs-keyword">let</span> center = <span class="hljs-keyword">this</span>.olmap.getView().getCenter();
+    <span class="hljs-keyword">let</span> zoom = <span class="hljs-keyword">this</span>.olmap.getView().getZoom();
+    <span class="hljs-keyword">if</span> (center === nextState.center &amp;&amp; zoom === nextState.zoom) <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+  }
+
+
+  render() {
+    <span class="hljs-keyword">this</span>.updateMap(); <span class="hljs-comment">// Update map on render?</span>
+    <span class="hljs-keyword">return</span> (
+      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"map4"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">width:</span> "<span class="hljs-attr">100</span>%", <span class="hljs-attr">height:</span> "<span class="hljs-attr">360px</span>" }}&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+    );
+  }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> Controles;
+
+</div></code></pre>
+
+    </body>
+    </html>

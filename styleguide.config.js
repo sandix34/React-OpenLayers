@@ -1,3 +1,4 @@
+
 module.exports = {
     title: 'Collection de composants React-OpenLayers ',
     exampleMode: 'hide',

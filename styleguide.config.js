@@ -5,5 +5,6 @@ module.exports = {
     pagePerSection: true,
     ribbon: {
         url: 'https://github.com/sandix34/React-OpenLayers' 
-    }
+    },
+    assetsDir: 'public'
 };

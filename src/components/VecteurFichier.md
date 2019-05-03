@@ -26,7 +26,7 @@ class VecteurFichier extends Component {
 
     // Source de données du vecteur en format GeoJSON
     this.sourceGeoJSON = new VectorSource({
-    url: 'https://5ccc48e49727a5e8aa340c59--compassionate-neumann-31d708.netlify.com/public/data/pays.geojson',
+    url: 'public/data/pays.geojson',
 	format: new GeoJSON()
     });
     // Déclaration de la couche vectorielle	
@@ -36,7 +36,7 @@ class VecteurFichier extends Component {
 
     // Source de données du vecteur en format GPX
     this.sourceGPX = new VectorSource({ 
-	url: 'https://5ccc48e49727a5e8aa340c59--compassionate-neumann-31d708.netlify.com/public/data/capitales.gpx',
+	url: 'public/data/capitales.gpx',
 	format: new GPX()
     });
     // Déclaration de la couche vectorielle	

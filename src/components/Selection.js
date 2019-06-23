@@ -13,8 +13,10 @@ import VectorSource from "ol/source/Vector";
 // Interaction pour la sélection d'entités vectorielles.
 import Select from "ol/interaction/Select";
 
-/*VIII.1. LA SÉLECTION
-
+/**
+ * ------------------------
+ * Selection
+ * ------------------------
 La classe ol.interaction.Select, comme son nom l'indique,
 permet de sélectionner des entités géographiques du vecteur.
 Elle est fournie avec de nombreuses options comme
@@ -24,7 +26,7 @@ et la récupération des objets et le style des entités selectionnées.
 De manière basique, on instancie la classe puis on l'ajoute à l'objet Map.
 Par défaut, la sélection s'applique au clic sur une entité du vecteur avec un style générique.
 On note que les entités sélectionnées sont ajoutées à une couche interne à l'API non déclarée dans le script.
-*/
+ */
 
 class Selection extends Component {
   constructor(props) {

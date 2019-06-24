@@ -96,7 +96,7 @@ class Dessin2 extends Component {
   }
 
   componentDidMount() {
-    this.olmap.setTarget("map19");
+    this.olmap.setTarget("map20");
 
     // Déclaration de l'interaction
     this.interactionDraw = new Draw({
@@ -110,7 +110,7 @@ class Dessin2 extends Component {
   }
 
   render() {
-    return <div id="map19" style={{ width: "100%", height: "360px" }} />;
+    return <div id="map20" style={{ width: "100%", height: "360px" }} />;
   }
 }
 

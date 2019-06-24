@@ -1,8 +1,7 @@
 # Une collection de composants React isolés utilisant OpenLayers.
 
-![DemoReactOpenLayers](https://user-images.githubusercontent.com/44428775/56866460-b068f900-69d9-11e9-932c-35f2417f91c6.gif)
 
-Ce projet a été démarré avec [Create React App](https://github.com/facebook/create-react-app) et [React Styleguidist](https://react-styleguidist.js.org/)
+![open](https://user-images.githubusercontent.com/44428775/60034050-0a203380-96aa-11e9-9fed-355cc8b4368e.gif)
 
 ### Scripts disponibles
 

@@ -24,9 +24,9 @@ class CarteWFS extends Component {
     // Déclaration de la source de la couche en format WFS 
     this.sourceWFS = new VectorSource({
 	// Chargement du lien WFS en format json
-	url: 'https://map.geomatick.com/geoserver/wfs?service=WFS&' +
-	'version=1.1.0&request=GetFeature&typename=tiger:tiger_roads&' +
-	'outputFormat=application/json',
+	url: "https://ahocevar.com/geoserver/wfs?service=WFS&" +
+  "version=1.1.0&request=GetFeature&typename=osm:water_areas&" +
+  "outputFormat=application/json&srsname=EPSG:3857&",
 	format: new GeoJSON(),
 	serverType: 'geoserver'
     });
@@ -46,29 +46,9 @@ class CarteWFS extends Component {
     });
   }
 
-  updateMap() {
-    this.olmap.getView().setCenter(this.state.center);
-    this.olmap.getView().setZoom(this.state.zoom);
-  }
-
   componentDidMount() {
     this.olmap.setTarget("map8");
-
-    // Listen to map changes
-    this.olmap.on("moveend", () => {
-      let center = this.olmap.getView().getCenter();
-      let zoom = this.olmap.getView().getZoom();
-      this.setState({ center, zoom });
-    });
   }
-
-  shouldComponentUpdate(nextProps, nextState) {
-    let center = this.olmap.getView().getCenter();
-    let zoom = this.olmap.getView().getZoom();
-    if (center === nextState.center && zoom === nextState.zoom) return false;
-    return true;
-  }
-
 
   render() {
     this.updateMap(); // Update map on render?

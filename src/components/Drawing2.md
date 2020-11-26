@@ -1,107 +1,116 @@
 ```jsx
-<Dessin2/>
+<Drawing2 />
 ```
 
 ```js static
 import React, { Component } from "react";
 
-// classes nécéssaires pour afficher la carte
+// classes needed to display the map
 import "ol/ol.css";
 import Map from "ol/Map";
 import View from "ol/View";
 
-// classes pour les vecteurs
+// classes for vectors
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
 import GeoJSON from "ol/format/GeoJSON";
 
-// Conteneur pour les styles de rendu d'entités vectorielles
+// Container for vector feature rendering styles
 import Style from "ol/style/Style";
-//Définir le style de trait pour les entités vectorielles
+// Set the line style for vector entities
 import Stroke from "ol/style/Stroke";
-//Définir le style de remplissage pour les entités vectorielles.
+// Define the fill style for vector entities.
 import Fill from "ol/style/Fill";
-//Définir le style de cercle pour les entités vectorielles.
+// Define the circle style for vector entities.
 import CircleStyle from "ol/style/Circle";
 
-// Interaction pour dessiner les géométries des entités.
+// Interaction to draw the geometries of the entities.
 import Draw from "ol/interaction/Draw";
 
-class Dessin2 extends Component {
+/**
+ * --------------
+ * Le dessin 2
+ * --------------
+Ici, la source du vecteur ne possède pas de données.
+Il est tout à fait possible d'ajouter des entités géographiques
+à un vecteur ayant déjà des données.
+ */
+
+class Drawing2 extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       center: [0, 0],
-      zoom: 2
+      zoom: 2,
     };
 
-    // Déclaration du style du vecteur
+    // Vector style statement
     this.styleVecteur = new Style({
       fill: new Fill({
-        color: "rgba(255, 255, 255, 0.2)"
+        color: "rgba(255, 255, 255, 0.2)",
       }),
       stroke: new Stroke({
         color: "rgba(20, 255, 50, 1.0)",
-        width: 2
-      })
+        width: 2,
+      }),
     });
 
-    // Source de données du vecteur en format GeoJSON
+    // Vector data source in GeoJSON format
     this.sourceGeoJSON = new VectorSource({
       url: "public/data/pays.geojson",
-      format: new GeoJSON()
+      format: new GeoJSON(),
     });
 
-    // Déclaration de la couche vectorielle
+    // Declaration of the vector layer
     this.vecteurGeoJSON = new VectorLayer({
       source: this.sourceGeoJSON,
-      style: this.styleVecteur
+      style: this.styleVecteur,
     });
 
-    // Déclaration de la carte
+    // declare the map
     this.olmap = new Map({
       target: null,
       layers: [this.vecteurGeoJSON],
       view: new View({
         center: this.state.center,
-        zoom: this.state.zoom
-      })
+        zoom: this.state.zoom,
+      }),
     });
 
-    // Déclaration du style de l'interaction
+    // Interaction style declaration
     this.styleDessin = new Style({
       fill: new Fill({
-        color: "rgba(255, 255, 255, 0.2)"
+        color: "rgba(255, 255, 255, 0.2)",
       }),
       stroke: new Stroke({
         color: "rgba(255, 0, 0, 1.0)",
         lineDash: [10, 10],
-        width: 2
+        width: 2,
       }),
       image: new CircleStyle({
         radius: 5,
         stroke: new Stroke({
-          color: "rgba(255, 0, 0, 0.85)"
+          color: "rgba(255, 0, 0, 0.85)",
         }),
         fill: new Fill({
-          color: "rgba(255, 0, 0, 0.85)"
-        })
-      })
+          color: "rgba(255, 0, 0, 0.85)",
+        }),
+      }),
     });
   }
 
   componentDidMount() {
     this.olmap.setTarget("map20");
 
-    // Déclaration de l'interaction
+    // Declaration of interaction
     this.interactionDraw = new Draw({
       type: "Polygon",
       source: this.sourceGeoJSON,
-      style: this.styleDessin
+      style: this.styleDessin,
     });
 
-    // Ajout de l'interaction
+    // Add interaction
     this.olmap.addInteraction(this.interactionDraw);
   }
 
@@ -110,6 +119,5 @@ class Dessin2 extends Component {
   }
 }
 
-export default Dessin2;
-
+export default Drawing2;
 ```

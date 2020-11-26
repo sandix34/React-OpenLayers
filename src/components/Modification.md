@@ -5,17 +5,17 @@
 ```js static
 import React, { Component } from "react";
 
-// classes nécéssaires pour afficher la carte
+// classes needed to display the map
 import "ol/ol.css";
 import Map from "ol/Map";
 import View from "ol/View";
 
-// classes pour les vecteurs
+// classes for vectors
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
 import GeoJSON from "ol/format/GeoJSON";
 
-// Interaction pour modifier les géométries des entités.
+// Interaction to modify the geometries of the entities.
 import Modify from "ol/interaction/Modify";
 
 class Modification extends Component {
@@ -24,40 +24,40 @@ class Modification extends Component {
 
     this.state = {
       center: [0, 0],
-      zoom: 2
+      zoom: 2,
     };
 
-    // Source de données du vecteur en format GeoJSON
+    // Vector data source in GeoJSON format
     this.sourceGeoJSON = new VectorSource({
       url: "public/data/pays.geojson",
-      format: new GeoJSON()
+      format: new GeoJSON(),
     });
 
-    // Déclaration de la couche vectorielle
+    // Declaration of the vector layer
     this.vecteurGeoJSON = new VectorLayer({
-      source: this.sourceGeoJSON
+      source: this.sourceGeoJSON,
     });
 
-    // Déclaration de la carte
+    // Declare the map
     this.olmap = new Map({
       target: null,
       layers: [this.vecteurGeoJSON],
       view: new View({
         center: this.state.center,
-        zoom: this.state.zoom
-      })
+        zoom: this.state.zoom,
+      }),
     });
   }
 
   componentDidMount() {
     this.olmap.setTarget("map21");
 
-    // Déclaration de l'interaction
+    // Declaration of interaction
     this.interactionModif = new Modify({
-      source: this.sourceGeoJSON
+      source: this.sourceGeoJSON,
       //style: styleDessin
     });
-    // Ajout de l'interaction
+    // Add interaction
     this.olmap.addInteraction(this.interactionModif);
   }
 
@@ -67,4 +67,5 @@ class Modification extends Component {
 }
 
 export default Modification;
+
 ```

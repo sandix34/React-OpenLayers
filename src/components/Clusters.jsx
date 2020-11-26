@@ -1,8 +1,3 @@
-```jsx
-<Clusters />
-```
-
-```js static
 import React, { Component } from "react";
 
 // classes required to display the map
@@ -30,6 +25,13 @@ import CircleStyle from "ol/style/Circle";
 
 // Source layer to group vector data.
 import Cluster from "ol/source/Cluster";
+
+/**
+ * Les clusters permettent de regrouper et de montrer le nombre
+ * d'entités géographiques d'un vecteur en focntion d'un niveau de zoom sur la carte.
+ * @visibleName Les Clusters
+ */
+
 
 class Clusters extends Component {
   constructor(props) {
@@ -120,4 +122,3 @@ class Clusters extends Component {
 }
 
 export default Clusters;
-```

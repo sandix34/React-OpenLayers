@@ -12,14 +12,12 @@ import { fromLonLat } from "ol/proj";
 import Overlay from "ol/Overlay";
 
 /**
- * ------------------------
- * Les Overlays
- * ------------------------
  * Les overlays sont des éléments localisés géographiquement comme des images par exemple.
-De la même manière que les contrôles,
-ils ont ajoutés à l'objet de la classe Map mais ils ne sont pas statiques.
-Ainsi, la classe ol.Overlay , en plus de l'indication de son élément dans le conteneur
-et de sa position, possède des options liées au panoramique de la carte.
+ * De la même manière que les contrôles,
+ * ils ont ajoutés à l'objet de la classe Map mais ils ne sont pas statiques.
+ * Ainsi, la classe ol.Overlay , en plus de l'indication de son élément dans le conteneur
+ * et de sa position, possède des options liées au panoramique de la carte.
+ * @visibleName Les overlays
  */
 
 class Overlays extends Component {
@@ -28,12 +26,12 @@ class Overlays extends Component {
 
     this.state = {
       center: [0, 0],
-      zoom: 2
+      zoom: 2,
     };
 
     // Data sources and the OpenStreetMap layer
     this.osm = new TileLayer({
-      source: new OSM()
+      source: new OSM(),
     });
 
     // Declaration of the map
@@ -42,8 +40,8 @@ class Overlays extends Component {
       layers: [this.osm],
       view: new View({
         center: this.state.center,
-        zoom: this.state.zoom
-      })
+        zoom: this.state.zoom,
+      }),
     });
   }
 
@@ -55,7 +53,7 @@ class Overlays extends Component {
       position: fromLonLat([-43.3307, -22.9201]),
       positioning: "center-center",
       element: document.getElementById("marker"),
-      stopEvent: false
+      stopEvent: false,
     });
     //console.log(this.marker);
 
@@ -79,7 +77,7 @@ class Overlays extends Component {
             border: "1px solid #088",
             borderRadius: "10px",
             backgroundColor: "#0FF",
-            opacity: "0.5"
+            opacity: "0.5",
           }}
         />
       </>

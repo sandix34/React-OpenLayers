@@ -1,33 +1,31 @@
 import React, { Component } from "react";
 
-// classes nécéssaires pour afficher la carte
+// classes needed to display the map
 import "ol/ol.css";
 import Map from "ol/Map";
 import View from "ol/View";
 import TileLayer from "ol/layer/Tile";
 import OSM from "ol/source/OSM";
 
-// méthode utilitaire pour la projection
+// utility method for projection
 import { fromLonLat } from "ol/proj";
 
-// classes pour les vecteurs
+// classes for vectors
 import GPX from "ol/format/GPX";
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
 
-// Conteneur pour les styles de rendu d'entités vectorielles
+// Container for vector feature rendering styles
 import Style from "ol/style/Style";
 
-//Définir le style d'icône pour les entités vectorielles.
+// Set icon style for vector entities.
 import Icon from "ol/style/Icon";
 
 /**
- * --------------------------------------------
- *  Les Icons et les Labels
- * --------------------------------------------
-Il est possible d'associer des icons et des labels aux vecteurs.
-Pour afficher un icon, la classe ol.style.Icon  est caractérisée par de
-nombreuses options liées notamment à la source, l'ancrage et au style de l'image.
+ * Il est possible d'associer des icons et des labels aux vecteurs.
+ * Pour afficher un icon, la classe ol.style.Icon  est caractérisée par de
+ * nombreuses options liées notamment à la source, l'ancrage et au style de l'image.
+ * @visibleName Les Icônes et les labels
  */
 
 class IconsLabels extends Component {
@@ -36,15 +34,15 @@ class IconsLabels extends Component {
 
     this.state = {
       center: fromLonLat([2.3439, 48.8579]),
-      zoom: 10
+      zoom: 10,
     };
 
-    // Sources de données et couche OpenStreetMap
+    // Data sources and OpenStreetMap layer
     this.osm = new TileLayer({
-      source: new OSM()
+      source: new OSM(),
     });
 
-    // Style du point avec un icône
+    // Point style with an icon
     this.iconStyle = new Style({
       image: new Icon(
         /** @type {olx.style.IconOptions} */ ({
@@ -53,34 +51,31 @@ class IconsLabels extends Component {
           anchorYUnits: "pixels",
           anchorOrigin: "bottom-left",
           src: "/public/icon.png",
-          scale: 0.3
+          scale: 0.3,
         })
-      )
+      ),
     });
 
     // Source de données du vecteur en format GPX
     this.sourceGPX = new VectorSource({
       url: "public/data/capitales.gpx",
-      format: new GPX()
+      format: new GPX(),
     });
 
-    // Déclaration de la couche vectorielle
+    // Declaration of the vector layer
     this.vecteurGPX2 = new VectorLayer({
       source: this.sourceGPX,
-      style: this.iconStyle
+      style: this.iconStyle,
     });
 
-    // Déclaration de la carte
+    // Declare the map
     this.olmap = new Map({
       target: null,
-      layers: [
-          this.osm, 
-          this.vecteurGPX2
-        ],
+      layers: [this.osm, this.vecteurGPX2],
       view: new View({
         center: this.state.center,
-        zoom: this.state.zoom
-      })
+        zoom: this.state.zoom,
+      }),
     });
   }
 

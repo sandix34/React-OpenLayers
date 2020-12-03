@@ -29,7 +29,7 @@ import Cluster from "ol/source/Cluster";
 /**
  * Les clusters permettent de regrouper et de montrer le nombre
  * d'entités géographiques d'un vecteur en focntion d'un niveau de zoom sur la carte.
- * @visibleName Les Clusters
+ * @visibleName Les clusters
  */
 
 

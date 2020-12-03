@@ -27,15 +27,6 @@ import CircleStyle from "ol/style/Circle";
 // Interaction to draw the geometries of the entities.
 import Draw from "ol/interaction/Draw";
 
-/**
- * --------------
- * Le dessin 2
- * --------------
-Ici, la source du vecteur ne possède pas de données.
-Il est tout à fait possible d'ajouter des entités géographiques
-à un vecteur ayant déjà des données.
- */
-
 class Drawing2 extends Component {
   constructor(props) {
     super(props);

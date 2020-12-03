@@ -1,108 +1,108 @@
+```jsx
+<HoverSelection/>
+```
+
+```js static
 import React, { Component } from "react";
 
-// classes nécéssaires pour afficher la carte
+// classes needed to display the map
 import "ol/ol.css";
 import Map from "ol/Map";
 import View from "ol/View";
 
-// classes pour les vecteurs
+// classes for vectors
 import GeoJSON from "ol/format/GeoJSON";
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
 
-// Conteneur pour les styles de rendu d'entités vectorielles
+// Container for vector feature rendering styles
 import Style from "ol/style/Style";
-//Définir le style de trait pour les entités vectorielles
+// Set the line style for vector entities
 import Stroke from "ol/style/Stroke";
-//Définir le style de remplissage pour les entités vectorielles.
+// Define the fill style for vector entities.
 import Fill from "ol/style/Fill";
 
-// Interaction pour la sélection d'entités vectorielles.
+// Interaction for the selection of vector entities.
 import Select from "ol/interaction/Select";
 import { pointerMove } from "ol/events/condition";
 
-/**
-Ajoutons un nouveau style à l'entité sélectionnée au survol puis récupérons ses propriétés.
- */
-
-class SelectionSurvol extends Component {
+class HoverSelection extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       center: [0, 0],
-      zoom: 2
+      zoom: 2,
     };
 
-    // Source de données du vecteur en format GeoJSON
+    // Vector data source in GeoJSON format
     this.sourceGeoJSON = new VectorSource({
       url: "public/data/pays.geojson",
-      format: new GeoJSON()
+      format: new GeoJSON(),
     });
 
-    // Déclaration de la couche vectorielle
+    // Declaration of the vector layer
     this.vecteurGeoJSON = new VectorLayer({
-      source: this.sourceGeoJSON
+      source: this.sourceGeoJSON,
     });
 
-    // Déclaration de la carte
+    // Declare the map
     this.olmap = new Map({
       target: null,
       layers: [this.vecteurGeoJSON],
       view: new View({
         center: this.state.center,
-        zoom: this.state.zoom
-      })
+        zoom: this.state.zoom,
+      }),
     });
 
-    // Déclaration du style du Polygone Sélectionné
+    // Declaring the Style of the Selected Polygon
     this.styleSelect = new Style({
       stroke: new Stroke({
         color: "rgba(0,0,255,1)",
-        width: 5
+        width: 5,
       }),
       fill: new Fill({
-        color: "rgba(0,0,255,0.1)"
-      })
+        color: "rgba(0,0,255,0.1)",
+      }),
     });
   }
 
   componentDidMount() {
     this.olmap.setTarget("map18");
 
-    // Déclaration de l'interaction avec des options
+    // Declaration of interaction with options
     this.interactionSelect = new Select({
-        // Sélection au survol
-        condition: pointerMove,
-        // Style de la sélection
-        style: this.styleSelect
-      });
-      
+      // Hover selection
+      condition: pointerMove,
+      // Selection style
+      style: this.styleSelect,
+    });
 
-    // Ajout de l'interaction à l'objet Map
+    // Adding the interaction to the Map object
     this.olmap.addInteraction(this.interactionSelect);
 
-    // On charge les entités survolées (option : features) dans une variable
+    // We load the hovered entities (option: features) in a variable
     this.entitesSelect = this.interactionSelect.getFeatures();
 
-    // Récupération des propriétés de l'entité sélectionnée lors de la sélection
-    this.entitesSelect.on("add", e => {
-      // Objet de l'entité
+    // Retrieving the properties of the entity selected during the selection
+    this.entitesSelect.on("add", (e) => {
+      // Object of the entity
       this.entite = e.target.item(0);
-      // Propriété
+      // Property
       this.proprieteEntite = this.entite.getProperties();
-      // Géométrie
+      // Geometry
       this.geomEntite = this.entite.getGeometry();
-      // Attribut
+      // Attribute
       this.attributEntite = this.entite.get("name");
       console.log(this.attributEntite);
     });
   }
 
   render() {
-
     return <div id="map18" style={{ width: "100%", height: "360px" }} />;
   }
 }
 
-export default SelectionSurvol;
+export default HoverSelection;
+```

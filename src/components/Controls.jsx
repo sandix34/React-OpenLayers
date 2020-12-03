@@ -22,7 +22,7 @@ import {
 /**
  * Les contrôles ol.control  sont d'autres composantes de la classe Map.
  * Chaque méthode possède ses propres options.
- * Il est possible de modifier le style CSS ou d'ajouter certaines fonctions javascript
+ * Il est possible de modifier le style CSS ou d'ajouter certaines fonctions javascript.
  * OpenLayers montre par exemple comment modifier le style CSS (couleur, place des éléments, etc) du ZoomSlider
  * https://openlayers.org/en/latest/examples/zoomslider.html
  * @visibleName Les contrôles

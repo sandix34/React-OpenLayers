@@ -1,6 +1,6 @@
 
 module.exports = {
-    title: 'React-OpenLayers component collection ',
+    title: 'Collection de composants React-OpenLayers ',
     exampleMode: 'hide',
     pagePerSection: true,
     ribbon: {

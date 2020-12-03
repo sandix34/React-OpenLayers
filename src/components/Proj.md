@@ -1,5 +1,5 @@
 ```jsx
-<Projection/>
+<Projection2/>
 ```
 
 ```js static

@@ -1,8 +1,3 @@
-```jsx
-<Translation />
-```
-
-```js static
 import React, { Component } from "react";
 
 // classes needed to display the map
@@ -11,24 +6,25 @@ import Map from "ol/Map";
 import View from "ol/View";
 
 // classes for vectors
+import GeoJSON from "ol/format/GeoJSON";
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
-import GeoJSON from "ol/format/GeoJSON";
 
-// Interaction for the translation (displacement) of the functionalities.
-import Translate from "ol/interaction/Translate";
+// Interaction for the selection of vector entities.
+import Select from "ol/interaction/Select";
 
-/**
- * La classe ol.interaction.Translate permet de déplacer des entités géographiques du vecteur.
- * Comme les autres interactions, il est possible de spécifier des options
- * comme les conditions de sélection (au clic par exemple),
+/** La classe ol.interaction.Select, comme son nom l'indique,
+ * permet de sélectionner des entités géographiques du vecteur.
+ * Elle est fournie avec de nombreuses options comme
+ * les conditions de sélection (au clic par exemple),
  * les filtres de sélection des couches
  * et la récupération des objets et le style des entités selectionnées.
- * Ici, on spécifie la couche prise en compte dans la translation.
- * @visibleName La translation
+ * De manière basique, on instancie la classe puis on l'ajoute à l'objet Map.
+ * Par défaut, la sélection s'applique au clic sur une entité du vecteur avec un style générique.
+ * @visibleName La sélection au clic
  */
 
-class Translation extends Component {
+class ClickSelection extends Component {
   constructor(props) {
     super(props);
 
@@ -60,19 +56,17 @@ class Translation extends Component {
   }
 
   componentDidMount() {
-    this.olmap.setTarget("map22");
+    this.olmap.setTarget("map17");
 
-    // Déclaration de l'interaction
-    this.translation = new Translate({
-      layers: [this.vecteurGeoJSON],
-    });
-    this.olmap.addInteraction(this.translation);
+    // Declaration of interaction
+    this.interactionSelect = new Select();
+    // Adding the interaction to the Map object
+    this.olmap.addInteraction(this.interactionSelect);
   }
 
   render() {
-    return <div id="map22" style={{ width: "100%", height: "360px" }} />;
+    return <div id="map17" style={{ width: "100%", height: "360px" }} />;
   }
 }
 
-export default Translation;
-```
+export default ClickSelection;

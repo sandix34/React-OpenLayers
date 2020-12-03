@@ -1,5 +1,5 @@
 ```jsx
-<Modification />
+<ClickSelection />
 ```
 
 ```js static
@@ -11,14 +11,14 @@ import Map from "ol/Map";
 import View from "ol/View";
 
 // classes for vectors
+import GeoJSON from "ol/format/GeoJSON";
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
-import GeoJSON from "ol/format/GeoJSON";
 
-// Interaction to modify the geometries of the entities.
-import Modify from "ol/interaction/Modify";
+// Interaction for the selection of vector entities.
+import Select from "ol/interaction/Select";
 
-class Modification extends Component {
+class ClickSelection extends Component {
   constructor(props) {
     super(props);
 
@@ -50,22 +50,18 @@ class Modification extends Component {
   }
 
   componentDidMount() {
-    this.olmap.setTarget("map21");
+    this.olmap.setTarget("map17");
 
     // Declaration of interaction
-    this.interactionModif = new Modify({
-      source: this.sourceGeoJSON,
-      //style: styleDessin
-    });
-    // Add interaction
-    this.olmap.addInteraction(this.interactionModif);
+    this.interactionSelect = new Select();
+    // Adding the interaction to the Map object
+    this.olmap.addInteraction(this.interactionSelect);
   }
 
   render() {
-    return <div id="map21" style={{ width: "100%", height: "360px" }} />;
+    return <div id="map17" style={{ width: "100%", height: "360px" }} />;
   }
 }
 
-export default Modification;
-
+export default ClickSelection;
 ```

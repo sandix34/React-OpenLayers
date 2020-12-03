@@ -1,8 +1,3 @@
-```jsx
-<IconsLabels />
-```
-
-```js static
 import React, { Component } from "react";
 
 // classes needed to display the map
@@ -25,6 +20,13 @@ import Style from "ol/style/Style";
 
 // Set icon style for vector entities.
 import Icon from "ol/style/Icon";
+
+/**
+ * Il est possible d'associer des icons et des labels aux vecteurs.
+ * Pour afficher un icon, la classe ol.style.Icon  est caractérisée par de
+ * nombreuses options liées notamment à la source, l'ancrage et au style de l'image.
+ * @visibleName Les Icônes et les labels
+ */
 
 class IconsLabels extends Component {
   constructor(props) {
@@ -87,4 +89,3 @@ class IconsLabels extends Component {
 }
 
 export default IconsLabels;
-```

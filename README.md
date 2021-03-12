@@ -1,6 +1,8 @@
 # Une collection de composants React isolés utilisant OpenLayers.
 
-Après une formation intensive en vue de ma reconversion dans le developpement web et mon interêt pour le webmapping, est né ce projet qui m'a permis de découvrir OpenLayers.
+## Contexte 
+
+Premier projet personnel pour apprendre React et découvrir Openlayers après une formation intensive de 3 mois sur les bases du développement web.
 
 ---
 

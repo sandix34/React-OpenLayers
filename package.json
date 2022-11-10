@@ -7,7 +7,7 @@
     "proj4": "^2.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "^4.0.1"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "styleguide": "styleguidist server",
@@ -34,6 +34,6 @@
   },
   "devDependencies": {
     "copy-webpack-plugin": "^6.3.2",
-    "react-styleguidist": "^11.1.4"
+    "react-styleguidist": "^11.2.0"
   }
 }
